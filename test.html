@@ -3,28 +3,68 @@
 <head>
 	<title>Test</title>
 
-	<style type="text/css">
-	.processor{
-		position: absolute;
-	    top: 178px;
-		left: 155px;
-		height: 142px;
-		transition: all .4s ease-in-out;
-	}
-	.full-cpu{
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		height: 600px;
-	}
-	.processor:hover{
-		transform: scale(1.6);
-		filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
-	}
-	</style>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="assets/css/bootstrap.techie.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	
+
+	<script>
+	$(document).ready(function(){
+	    $("#pro").click(function(){
+	        $("#1").toggle();
+	        $("#2").display='none';
+
+	    });
+
+	});
+
+	$(document).ready(function(){
+	    $("#full").click(function(){
+	        $("#2").toggle();
+	    });
+	});
+	</script>
 </head>
-<body>
-	<img src="img/full-cpu.jpeg" class="full-cpu">
-	<img src="img/processor.png" class="processor">
+<body> 
+	<div class="image">
+		<img src="img/full-cpu.jpeg" class="full-cpu" id="full">
+		<img src="img/processor.png" class="processor" id="pro">
+	</div>
+	<div class="w pull-right">
+		<div class="1" id="1" style="display: none;">
+			<form role="form">
+				<h3>QUE1</h3>
+				<h6>rrrrr</h6>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">RAM
+			    </label>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">Processor
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" value="1">VGA
+			    </label>
+			</form>
+		</div>
+		<div class="1" id="2" style="display: none;">
+			<form role="form">
+				<h3>QUE2</h3>
+				<h6>rrrrr</h6>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">RAM
+			    </label>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">Processor
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" value="1">VGA
+			    </label>
+			</form>
+		</div>
+	</div>
+
+
 </body>
 </html>
