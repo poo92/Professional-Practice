@@ -13,8 +13,8 @@
 	<script>
 	$(document).ready(function(){
 	    $("#pro").click(function(){
-	        $("#1").toggle();
-	        $("#2").display='none';
+	        $("#1").slideDown(500);
+	        $("#2").hide('fast');
 
 	    });
 
@@ -22,15 +22,24 @@
 
 	$(document).ready(function(){
 	    $("#full").click(function(){
-	        $("#2").toggle();
+	        $("#2").slideDown(500);
+			$("#1").hide('fast');
 	    });
 	});
 	</script>
+
+
+
+
+
 </head>
 <body> 
 	<div class="image">
 		<img src="img/full-cpu.jpeg" class="full-cpu" id="full">
-		<img src="img/processor.png" class="processor" id="pro">
+		<img src="img/processor.png" class="component processor" id="pro">
+		<img src="img/ram.png" class="component ram" id="ram">
+		<img src="img/powersupply.png" class="component powersupply" id="powersupply">
+		
 	</div>
 	<div class="w pull-right">
 		<div class="1" id="1" style="display: none;">
@@ -46,6 +55,7 @@
 			    <label class="radio-inline">
 			    	<input type="radio" name="optradio" value="1">VGA
 			    </label>
+				<button>Submit</button>
 			</form>
 		</div>
 		<div class="1" id="2" style="display: none;">
@@ -61,6 +71,7 @@
 			    <label class="radio-inline">
 			    	<input type="radio" name="optradio" value="1">VGA
 			    </label>
+				<button>Submit</button>
 			</form>
 		</div>
 	</div>

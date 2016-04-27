@@ -1,21 +1,36 @@
-.processor{
-	position: absolute;
-    top: 178px;
-	left: 155px;
-	height: 142px;
-	transition: all .4s ease-in-out;
-}
 .full-cpu{
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	height: 600px;
 }
-.processor:hover{
-	transform: scale(1.6);
+
+.component {
+	position: absolute;
+	transition: all .4s ease-in-out;
 	filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
+}
+.component:hover{
+	transform: scale(1.4);
+	filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
+}
 
+.processor{
+    top: 194px;
+	left: 169px;
+	height: 107px;
+}
 
+.ram {
+	top: 203px;
+	left: 327px;
+	height: 160px;
+}
+
+.powersupply {
+	top: 54px;
+	left: 77px;
+	height: 125px;
 }
 
 .w{
