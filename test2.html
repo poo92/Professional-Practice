@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  	<link href="assets/css/bootstrap.techie.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	
+
+	<script>
+	$(document).ready(function(){
+	    $("#pro").click(function(){
+	        $("#1").toggle();
+	        $("#2").display='none';
+
+	    });
+
+	});
+
+	$(document).ready(function(){
+	    $("#full").click(function(){
+	        $("#2").toggle();
+	    });
+	});
+	</script>
+</head>
+<body> 
+	<div class="image">
+		<img src="img/pic2.png" class="full-cpu" id="full">
+	</div>
+	<div class="w pull-right">
+		<div class="1" id="1" style="display: none;">
+			<form role="form">
+				<h3>QUE1</h3>
+				<h6>rrrrr</h6>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">RAM
+			    </label>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">Processor
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" value="1">VGA
+			    </label>
+			</form>
+		</div>
+		<div class="1" id="2" style="display: none;">
+			<form role="form">
+				<h3>QUE2</h3>
+				<h6>rrrrr</h6>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">RAM
+			    </label>
+			    <label class="radio-inline">
+			      	<input type="radio" name="optradio">Processor
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" value="1">VGA
+			    </label>
+			</form>
+		</div>
+	</div>
+
+
+</body>
+</html>
