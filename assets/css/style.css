@@ -4,6 +4,7 @@
 	left: 155px;
 	height: 142px;
 	transition: all .4s ease-in-out;
+	filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
 }
 .full-cpu{
 	position: absolute;
@@ -12,7 +13,7 @@
 	height: 600px;
 }
 .processor:hover{
-	transform: scale(1.6);
+	transform: scale(1.4);
 	filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
 
 
