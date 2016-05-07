@@ -36,5 +36,16 @@
 .w{
 	width: 600px;
     height: 400px;
-    background-color: red;
+}
+
+.hard{
+	top: 161px;
+	left: 456px;
+	height: 117px;
+}
+
+.motherboard{
+	top: 410px;
+	left: 15px;
+	height: 187px;
 }
