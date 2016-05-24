@@ -1,3 +1,19 @@
+.header{
+	position: absolute;
+	padding: 7px;
+	text-align: center;
+	color: black;
+	width: 100%;
+	font-size: 20px;
+	background: #e3e024;
+}
+
+.container{
+	position: absolute;
+	margin-left: 160px;
+	top: 35px;
+}
+
 .full-cpu{
 	position: absolute;
 	top: 0px;
@@ -8,34 +24,37 @@
 .component {
 	position: absolute;
 	transition: all .4s ease-in-out;
-	filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
+	filter: drop-shadow(1px 0px 0px yellow) drop-shadow(-1px -1px 2px yellow);
 }
 .component:hover{
-	transform: scale(1.4);
 	filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
+	z-index: 100;
+	transform: scale(1.4);
 }
 
 .processor{
-    top: 194px;
-	left: 169px;
-	height: 107px;
+	top: 195px;
+	left: 360px;
+	height: 106px;
 }
 
+
 .ram {
-	top: 203px;
-	left: 327px;
-	height: 160px;
+	top: 206px;
+	left: 514px;
+	height: 157px;
 }
 
 .powersupply {
-	top: 54px;
-	left: 77px;
-	height: 125px;
+	top: 60px;
+	left: 271px;
+	height: 124px;
 }
 
 .w{
 	width: 600px;
     height: 400px;
+    background: red;
 }
 
 .hard{
@@ -48,4 +67,12 @@
 	top: 410px;
 	left: 15px;
 	height: 187px;
+}
+
+.question-box{
+	position: absolute;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 10px;
+	box-shadow: 0px 0px 0px 2px;
 }
