@@ -17,8 +17,8 @@
 .full-cpu{
 	position: absolute;
 	top: 0px;
-	left: 0px;
-	height: 600px;
+	left: 260px;
+	height: 590px;
 }
 
 .component {
@@ -33,40 +33,16 @@
 }
 
 .processor{
-	top: 195px;
-	left: 360px;
-	height: 106px;
+	top: 229px;
+	left: 500px;
+	height: 133px;
 }
 
-
-.ram {
-	top: 206px;
-	left: 514px;
-	height: 157px;
-}
-
-.powersupply {
-	top: 60px;
-	left: 271px;
-	height: 124px;
-}
 
 .w{
 	width: 600px;
     height: 400px;
     background: red;
-}
-
-.hard{
-	top: 161px;
-	left: 456px;
-	height: 117px;
-}
-
-.motherboard{
-	top: 410px;
-	left: 15px;
-	height: 187px;
 }
 
 .question-box{
@@ -78,15 +54,15 @@
 }
 
 .fan{
-	top: 161px;
-	left: 220px;
+	top: 181px;
+	left: 364px;
 	height: 170px;
 }
 
-.vga{
-	top: 354px;
-	left: 281px;
-	height: 37px;
+.speeker{
+	top: 399px;
+	left: 861px;
+	height: 99px;
 }
 
 .PCI{
@@ -99,4 +75,10 @@
 	top: 385px;
 	left: 485px;
 	height: 38px;
+}
+
+.powersupply {
+	top: 34px;
+	left: 366px;
+	height: 175px;
 }
