@@ -26,7 +26,7 @@
         knowledge in an interactive way. You can learn how to disassemble a CPU of a desktop computer while recognizing all
         the important hardware parts.
         <br>
-        Let's begin learning with watching this video.
+        <span style="color:#1883ba;">Let's begin learning with watching this video.</span>
     </p>
 </div>
 <br>
@@ -46,7 +46,7 @@
 <img id="goImage" src="assets/img/arrow.png" onclick="alertMessage();">
 </div>
 
-<div id="targetDiv" class="col-xs-4 col-xs-offset-5" style="height: 500px; background-color: #00b3ff; display: none;" >
+<div id="targetDiv" class="col-xs-4 col-xs-offset-5" style="height: 700px; background-color: #00b3ff; display: none;" >
 
 </div>
 
@@ -60,7 +60,7 @@
         $( "#targetDiv" ).slideDown( "slow", function() {
             $('html, body').animate({
                 scrollTop: $("#targetDiv").offset().top
-            }, 3000);
+            }, 1000);
         });
 
         e.preventDefault();
