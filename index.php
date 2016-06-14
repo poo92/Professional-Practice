@@ -8,6 +8,8 @@
 
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/mainCSS.css" rel="stylesheet">
     <link href="assets/css/bootstrap.techie.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -34,8 +36,46 @@
 
 
 <body>
-<div style="background-color: dodgerblue; height: 100px;">
-    <p>header here</p>
+<div style="background-color: #00b3b3; height: 83px;">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">PC<strong style="color : #009b83;">Know</strong></a>
+            </div>
+             
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item active">
+                        <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
 </div>
 
 <div>
