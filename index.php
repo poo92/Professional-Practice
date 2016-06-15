@@ -90,9 +90,9 @@
 </div>
 <br>
 
-<div class="col-xs-6 col-xs-offset-3" style="border:1px solid black;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0"
-            allowfullscreen></iframe>
+<div class="col-xs-6 col-xs-offset-3">
+    <iframe width="560" height="315"  style="border:1px solid black;" st src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0"
+            allowfullscreen ></iframe>
 
 </div>
 <br> <br>
@@ -109,7 +109,7 @@
 
     <form role="form" method="post" onsubmit="return(validateForm());">
 
-    <div class="image container">
+    <div  id="imageDiv" class="image container">
         <img src="assets/img/q1/cpu-first-look.png" class="full-cpu" id="full">
         <img src="assets/img/q1/processer-fan.png" class="component processor" id="pro">
         <img src="assets/img/q1/power-supply.png" class="component powersupply" id="powersupply">
@@ -165,9 +165,13 @@
 	    <label id="errorq4" style="font-size: 15px; top: 492px; left: -514px;"></label>
 	</div>
 
-    <div class="col-xs-1 col-xs-offset-11" style="top:525px;">
-        <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" >Submit</button>
+    <div class="col-xs-12" style="top:525px; text-align: right;">
+        <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton">Submit</button>
     </div>
+
+        <div  class="col-xs-12" style="top: 525px; text-align: right;">
+            <button id="nextButton" name="nextButton" class="btn btn-default hidden" style="background-color: #2a6496; color: #ffffff;" >Next</button>
+        </div>
         </form>
 </div>
 
@@ -178,7 +182,7 @@
 <script>
     function alertMessage(){
 
-        $( "#targetDiv" ).slideDown( "slow", function() {
+        $( "#targetDiv" ).slideDown( "fast", function() {
             $('html, body').animate({
                 scrollTop: $("#targetDiv").offset().top
             }, 900);
@@ -246,14 +250,18 @@
                 correctAnswer("q4box");
             }else {
                 wrongAnswer("q4box","errorq4");
-                document.getElementById("errorq4").style.top = "515px";
+                document.getElementById("errorq4").style.top = "520px";
                 document.getElementById("errorq4").innerHTML = "Correct Answer : Default Speakers";
                 errors1.push("notok");
             }
 
             if(errors1.length >0){
+                $( "#submitButton" ).addClass( "hidden" );
+                $( "#nextButton" ).removeClass( "hidden" );
                 return false;
             }else{
+                $( "#submitButton" ).addClass( "hidden" );
+                $( "#nextButton" ).removeClass( "hidden" );
                 return false;
 
             }
@@ -290,6 +298,7 @@
 
     }
 </script>
+
 
 
 </html>
