@@ -18,24 +18,26 @@
 	position: absolute;
 	top: 0px;
 	left: 260px;
-	height: 590px;
+	height: 555px;
 }
 
 .component {
 	position: absolute;
 	transition: all .4s ease-in-out;
+	filter: drop-shadow(1px 0px 0px yellow) drop-shadow(-1px -1px 2px yellow);
 	-webkit-filter: drop-shadow(1px 0px 0px yellow) drop-shadow(-1px -1px 2px yellow);
 }
 .component:hover{
+	filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
 	-webkit-filter: drop-shadow(3px 1px 2px yellow) drop-shadow(-2px -2px 3px yellow);
 	z-index: 100;
 	transform: scale(1.4);
 }
 
 .processor{
-	top: 229px;
-	left: 500px;
-	height: 133px;
+	top: 216px;
+	left: 487px;
+	height: 123px;
 }
 
 
@@ -46,29 +48,28 @@
 }
 
 .question-box{
-	position: absolute;
 	border-radius: 5px;
 	border: 2px solid black;
 	padding: 10px;
-
+	width: 225px;
 }
 
 .fan{
-	top: 181px;
-	left: 364px;
-	height: 170px;
+	top: 171px;
+	left: 357px;
+	height: 160px;
 }
 
 .speeker{
-	top: 399px;
-	left: 861px;
-	height: 99px;
+	top: 376px;
+	left: 826px;
+	height: 92px;
 }
 
 .PCI{
-	top: 475px;
-	left: 346px;
-	height: 25px;
+	top: 465px;
+	left: 336px;
+	height: 15px;
 }
 
 .south_bridge{
@@ -78,7 +79,7 @@
 }
 
 .powersupply {
-	top: 34px;
-	left: 366px;
-	height: 175px;
+	top: 32px;
+	left: 359px;
+	height: 165px;
 }

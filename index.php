@@ -36,9 +36,9 @@
 
 
 <body>
-<div style="background-color: #00b3b3; height: 83px;">
+<div style="background-color: #00b3b3; height: 75px;">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="height: 65px;">
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -47,12 +47,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">PC<strong style="color : #009b83;">Know</strong></a>
+                <a class="navbar-brand" href="index.html" style="padding: 10px 15px 0px; height: 46px;" >PC<strong style="color : #009b83; ">Know</strong></a>
             </div>
              
-            <ul class="nav navbar-right top-nav">
+            <ul class="nav navbar-right top-nav" >
                 <li class="dropdown">
-                    <ul class="pagination pagination-sm">
+                    <ul class="pagination pagination-sm" style="margin: 10px 0px;">
                         <li class="page-item disabled">
                             <a class="page-link" href="#" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
@@ -90,8 +90,8 @@
 </div>
 <br>
 
-<div class="col-xs-6 col-xs-offset-3">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8UyJMiYqvs4" frameborder="0"
+<div class="col-xs-6 col-xs-offset-3" style="border:1px solid black;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0"
             allowfullscreen></iframe>
 
 </div>
@@ -101,11 +101,11 @@
 <!--    <button class="btn btn-primary homeGoBTN"  > GO </button>-->
 <!---->
 <!--</div>-->
-<div class="col-xs-4 col-xs-offset-5">
+<div class="col-xs-12" style="text-align:center;">
 <img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
 </div>
 
-<div id="targetDiv" class="col-xs-12" style="height: 665px; display: none;" >
+<div id="targetDiv" class="col-xs-12" style="height: 600px; display: none;" >
 
     <form role="form" method="post" onsubmit="return(validateForm());">
 
@@ -117,51 +117,55 @@
         <img src="assets/img/q1/speeker.png" class="component speeker" id="speeker">
     </div>
     <!-- Left side -->
-    <div id="q1box" class="question-box" style="top: 101px; left: 230px;">
-        <select id="q1" style="width:200px; color: black;">
-            <option value="0">-- Select --</option>
-            <option value="1">RAM</option>
-            <option value="2">Power Supply Unit</option>
-            <option value="3">VGA</option>
-        </select>
-    </div>
+    <div style="position: absolute; top: 96px; left: 244px;">
+	    <div id="q1box" class="question-box" style="">
+	        <select id="q1" style="width:200px; color: black;">
+	            <option value="0">-- Select --</option>
+	            <option value="1">RAM</option>
+	            <option value="2">Power Supply Unit</option>
+	            <option value="3">VGA</option>
+	        </select>
+	    </div>
+	    <label id="errorq1" style="font-size: 15px; top: 148px; left: 23px;"></label>
+	</div>
 
-    <label id="errorq1" style="font-size: 15px;top:150px; left: -20px;"  class="col-xs-3 col-xs-offset-2 "></label>
+	<div style="position: absolute; top: 254px; left: 218px;">
+	    <div id="q2box" class="question-box">
+	        <select id="q2" style="width:200px; color: black;">
+	            <option value="0">-- Select --</option>
+	            <option value="1">RAM</option>
+	            <option value="2">Processor Cooling Fan </option>
+	            <option value="3">Cooling Fan</option>
+	        </select>
+	    </div>
+	    <label id="errorq2" style="font-size: 15px; top: 304px; left: -546px;"></label>
+	</div>
+	
+	<div style="position: absolute; top: 372px; left: 231px;">
+	    <div id="q3box" class="question-box">
+	        <select id="q3" style="width:200px; color: black;">
+	            <option value="0">-- Select --</option>
+	            <option value="1">Processor Cooling Fan</option>
+	            <option value="2">Processor</option>
+	            <option value="3">Cooling Fan</option>
+	        </select>
+	    </div>
+	    <label id="errorq3" style="font-size: 15px; top: 394px; left: 13px;"></label>
+	</div>
 
-    <div id="q2box" class="question-box" style="top: 268px; left: 204px;">
-        <select id="q2" style="width:200px; color: black;">
-            <option value="0">-- Select --</option>
-            <option value="1">RAM</option>
-            <option value="2">Processor Cooling Fan </option>
-            <option value="3">Cooling Fan</option>
-        </select>
-    </div>
+	<div style="position: absolute; top: 467px; left: 251px;">
+	    <div id="q4box" class="question-box">
+	        <select id="q4" style="width:200px; color: black;">
+	            <option value="0">-- Select --</option>
+	            <option value="1">RAM</option>
+	            <option value="2">Default Speakers</option>
+	            <option value="3">VGA</option>
+	        </select>
+	    </div>
+	    <label id="errorq4" style="font-size: 15px; top: 492px; left: -514px;"></label>
+	</div>
 
-    <label id="errorq2" style="font-size: 15px; top:320px;left:-590px; " class="col-xs-3 col-xs-offset-2 "></label>
-
-    <div id="q3box" class="question-box" style="top: 403px; left: 218px;">
-        <select id="q3" style="width:200px; color: black;">
-            <option value="0">-- Select --</option>
-            <option value="1">Processor Cooling Fan</option>
-            <option value="2">Processor</option>
-            <option value="3">Cooling Fan</option>
-        </select>
-    </div>
-
-    <label id="errorq3" style="font-size: 15px;top:420px;left:-30px; " class="col-xs-3 col-xs-offset-2 "></label>
-
-    <div id="q4box" class="question-box" style="top: 485px; left: 229px;">
-        <select id="q4" style="width:200px; color: black;">
-            <option value="0">-- Select --</option>
-            <option value="1">RAM</option>
-            <option value="2">Default Speakers</option>
-            <option value="3">VGA</option>
-        </select>
-    </div>
-
-    <label id="errorq4" style="font-size: 15px; top:510px;left:-565px;" class="col-xs-3 col-xs-offset-2 "></label>
-
-    <div class="col-xs-1 col-xs-offset-11" style="top:595px;">
+    <div class="col-xs-1 col-xs-offset-11" style="top:525px;">
         <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" >Submit</button>
     </div>
         </form>
