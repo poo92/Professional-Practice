@@ -165,7 +165,7 @@
         <button id="submitButton" class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" >Submit</button>
     </div>
 
-        <div  class="col-xs-1 col-xs-offset-11 " style="top:530px; ">
+        <div  class="col-xs-2 col-xs-offset-11 " style="top:550px; ">
             <button id="nextButton" name="nextButton" class="btn btn-default hidden" style="background-color: #2a6496; color: #ffffff;" >Next</button>
         </div>
         </form>
