@@ -109,7 +109,7 @@
 
     <form role="form" method="post" onsubmit="return(validateForm());">
 
-    <div class="image container">
+    <div  id="imageDiv" class="image container">
         <img src="assets/img/q1/cpu-first-look.png" class="full-cpu" id="full">
         <img src="assets/img/q1/processer-fan.png" class="component processor" id="pro">
         <img src="assets/img/q1/power-supply.png" class="component powersupply" id="powersupply">
@@ -161,9 +161,13 @@
 
     <label id="errorq4" style="font-size: 15px; top:510px;left:-565px;" class="col-xs-3 col-xs-offset-2 "></label>
 
-    <div class="col-xs-1 col-xs-offset-11" style="top:595px;">
-        <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" >Submit</button>
+    <div  class="col-xs-1 col-xs-offset-11" style="top:550px;">
+        <button id="submitButton" class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" >Submit</button>
     </div>
+
+        <div  class="col-xs-1 col-xs-offset-11 " style="top:530px; ">
+            <button id="nextButton" name="nextButton" class="btn btn-default hidden" style="background-color: #2a6496; color: #ffffff;" >Next</button>
+        </div>
         </form>
 </div>
 
@@ -174,7 +178,7 @@
 <script>
     function alertMessage(){
 
-        $( "#targetDiv" ).slideDown( "slow", function() {
+        $( "#targetDiv" ).slideDown( "fast", function() {
             $('html, body').animate({
                 scrollTop: $("#targetDiv").offset().top
             }, 900);
@@ -242,14 +246,18 @@
                 correctAnswer("q4box");
             }else {
                 wrongAnswer("q4box","errorq4");
-                document.getElementById("errorq4").style.top = "515px";
+                document.getElementById("errorq4").style.top = "520px";
                 document.getElementById("errorq4").innerHTML = "Correct Answer : Default Speakers";
                 errors1.push("notok");
             }
 
             if(errors1.length >0){
+                $( "#submitButton" ).addClass( "hidden" );
+                $( "#nextButton" ).removeClass( "hidden" );
                 return false;
             }else{
+                $( "#submitButton" ).addClass( "hidden" );
+                $( "#nextButton" ).removeClass( "hidden" );
                 return false;
 
             }
@@ -286,6 +294,7 @@
 
     }
 </script>
+
 
 
 </html>

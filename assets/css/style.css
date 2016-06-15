@@ -82,3 +82,12 @@
 	left: 366px;
 	height: 175px;
 }
+
+.hidden{
+	display: none;
+}
+
+.setVisible{
+	display : block;
+}
+
