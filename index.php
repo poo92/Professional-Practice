@@ -62,12 +62,12 @@
 <!---->
 <!--</div>-->
 <div class="col-xs-4 col-xs-offset-5">
-<img id="goImage" src="assets/img/arrow.png" onclick="alertMessage();">
+<img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
 </div>
 
-<div id="targetDiv" class="col-xs-12" style="height: 650px; display: none;" >
+<div id="targetDiv" class="col-xs-12" style="height: 665px; display: none;" >
 
-    <form role="form" method="post" onsubmit="return(validateForm())">
+    <form role="form" method="post" onsubmit="return(validateForm());">
 
     <div class="image container">
         <img src="assets/img/q1/cpu-first-look.png" class="full-cpu" id="full">
@@ -81,45 +81,45 @@
         <select id="q1" style="width:200px; color: black;">
             <option value="0">-- Select --</option>
             <option value="1">RAM</option>
-            <option value="2">Processor</option>
+            <option value="2">Power Supply Unit</option>
             <option value="3">VGA</option>
         </select>
     </div>
 
-    <label id="errorq1" style="font-size: 15px;top:150px;"  class="col-xs-3 col-xs-offset-2 "></label>
+    <label id="errorq1" style="font-size: 15px;top:150px; left: -20px;"  class="col-xs-3 col-xs-offset-2 "></label>
 
     <div id="q2box" class="question-box" style="top: 268px; left: 204px;">
         <select id="q2" style="width:200px; color: black;">
             <option value="0">-- Select --</option>
             <option value="1">RAM</option>
-            <option value="2">Processor</option>
-            <option value="3">VGA</option>
+            <option value="2">Processor Cooling Fan </option>
+            <option value="3">Cooling Fan</option>
         </select>
     </div>
 
-    <label id="errorq2" style="font-size: 15px; top:320px;left:-550px; " class="col-xs-3 col-xs-offset-2 "></label>
+    <label id="errorq2" style="font-size: 15px; top:320px;left:-590px; " class="col-xs-3 col-xs-offset-2 "></label>
 
     <div id="q3box" class="question-box" style="top: 403px; left: 218px;">
         <select id="q3" style="width:200px; color: black;">
             <option value="0">-- Select --</option>
-            <option value="1">RAM</option>
+            <option value="1">Processor Cooling Fan</option>
             <option value="2">Processor</option>
-            <option value="3">VGA</option>
+            <option value="3">Cooling Fan</option>
         </select>
     </div>
 
-    <label id="errorq3" style="font-size: 15px;top:420px;left:0px; " class="col-xs-3 col-xs-offset-2 "></label>
+    <label id="errorq3" style="font-size: 15px;top:420px;left:-30px; " class="col-xs-3 col-xs-offset-2 "></label>
 
     <div id="q4box" class="question-box" style="top: 485px; left: 229px;">
         <select id="q4" style="width:200px; color: black;">
             <option value="0">-- Select --</option>
             <option value="1">RAM</option>
-            <option value="2">Processor</option>
+            <option value="2">Default Speakers</option>
             <option value="3">VGA</option>
         </select>
     </div>
 
-    <label id="errorq4" style="font-size: 15px; top:500px;left:-550px;" class="col-xs-3 col-xs-offset-2 "></label>
+    <label id="errorq4" style="font-size: 15px; top:510px;left:-565px;" class="col-xs-3 col-xs-offset-2 "></label>
 
     <div class="col-xs-1 col-xs-offset-11" style="top:595px;">
         <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" >Submit</button>
@@ -153,17 +153,17 @@
         if (!selectValidationOnSubmit(val1, "errorq1","q1box")) {
             errors.push("errorq1");
         }
-        var val2 = document.getElementById("q1").value;
+        var val2 = document.getElementById("q2").value;
         if (!selectValidationOnSubmit(val2, "errorq2","q2box")) {
             errors.push("errorq2");
         }
 
-        var val3 = document.getElementById("q1").value;
+        var val3 = document.getElementById("q3").value;
         if (!selectValidationOnSubmit(val3, "errorq3","q3box")) {
             errors.push("errorq3");
         }
 
-        var val4 = document.getElementById("q1").value;
+        var val4 = document.getElementById("q4").value;
         if (!selectValidationOnSubmit(val4, "errorq4","q4box")) {
             errors.push("errorq4");
         }
@@ -172,7 +172,47 @@
         if (errors.length > 0) {
             return false;
         } else {
-            return true;
+            var errors1 = [];
+            if(val1 == 2){
+                correctAnswer("q1box");
+            }else {
+                wrongAnswer("q1box","errorq1");
+                document.getElementById("errorq1").innerHTML = "Correct Answer : Power Supply Unit";
+               errors1.push("notok");
+            }
+
+            if(val2 == 3){
+                correctAnswer("q2box");
+            }else {
+                wrongAnswer("q2box","errorq2");
+                document.getElementById("errorq2").innerHTML = "Correct Answer : Cooling Fan";
+                errors1.push("notok");
+            }
+
+            if(val3 == 1){
+                correctAnswer("q3box");
+            }else {
+                wrongAnswer("q3box","errorq3");
+                document.getElementById("errorq3").style.top = "430px";
+                document.getElementById("errorq3").innerHTML = "Correct Answer : Processor Cooling Fan";
+                errors1.push("notok");
+            }
+
+            if(val4 == 2){
+                correctAnswer("q4box");
+            }else {
+                wrongAnswer("q4box","errorq4");
+                document.getElementById("errorq4").style.top = "515px";
+                document.getElementById("errorq4").innerHTML = "Correct Answer : Default Speakers";
+                errors1.push("notok");
+            }
+
+            if(errors1.length >0){
+                return false;
+            }else{
+                return false;
+
+            }
         }
     }
 
@@ -186,8 +226,24 @@
             return false;
         } else {
             document.getElementById(errorLbl).innerHTML = "";
+            document.getElementById(element).style.borderColor = "black";
             return true;
         }
+    }
+
+
+    function correctAnswer(element){
+        document.getElementById(element).style.borderColor = "green";
+
+
+
+    }
+
+    function wrongAnswer(element,errorLbl){
+        document.getElementById(element).style.borderColor = "red";
+        document.getElementById(errorLbl).style.color = "#808080";
+
+
     }
 </script>
 
