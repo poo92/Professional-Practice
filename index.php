@@ -81,6 +81,7 @@
 <!-- header end -->
 
 <form role="form" method="post"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" >
+<<<<<<< HEAD
 
     <!-- Step 1 content -->
     <div id="step1" style="display: block;">
@@ -110,6 +111,37 @@
         <!-- Questionary -->
         <div id="targetDiv" class="col-xs-12" style="height: 600px; display: none;" >
 
+=======
+
+    <!-- Step 1 content -->
+    <div id="step1">
+        <div>
+            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Introduction</h3>
+
+            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">This application is intended to improve your hardware
+                knowledge in an interactive way. You can learn how to disassemble a CPU of a desktop computer while recognizing all
+                the important hardware parts.
+                <br>
+                Let's begin learning with watching this video.
+            </p>
+        </div>
+        <br>
+
+        <!-- video -->
+        <div class="col-xs-12" style="text-align:center;">
+            <iframe width="560" height="315"  style="border:1px solid black;" st src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0"
+                    allowfullscreen ></iframe>
+
+        </div>
+        <br> <br>
+        <!-- Arrow -->
+        <div class="col-xs-12" style="text-align:center;">
+        <img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
+        </div>
+        <!-- Questionary -->
+        <div id="targetDiv" class="col-xs-12" style="height: 600px; display: none;" >
+
+>>>>>>> c1d3d1304a52752f8546bde982752f1cf8f24edb
             <div  id="imageDiv" class="image container">
                 <img src="assets/img/q1/cpu-first-look.png" class="full-cpu" id="full">
                 <img src="assets/img/q1/processer-fan.png" class="component processor" id="pro">
@@ -167,6 +199,7 @@
         	</div>
 
             <div class="col-xs-12" style="top:525px; text-align: right;">
+<<<<<<< HEAD
                 <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton1" onclick="return(validateForm());">Submit</button>
             </div>
 
@@ -199,14 +232,32 @@
         <img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
         </div>
     </div>
+=======
+                <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton" onclick="return(validateForm());">Submit</button>
+            </div>
+
+                <div  class="col-xs-12" style="top: 525px; text-align: right;">
+                    <button id="nextButton" name="nextButton" class="btn btn-default hidden" style="background-color: #2a6496; color: #ffffff;" >Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Ste 2 content -->
+    <div id="step2"></div>
+>>>>>>> c1d3d1304a52752f8546bde982752f1cf8f24edb
 
     <!-- Ste 3 content -->
     <div id="step3"></div>
 
     <!-- Ste 4 content -->
     <div id="step4"></div>
+<<<<<<< HEAD
 
 </form>
+=======
+    
+>>>>>>> c1d3d1304a52752f8546bde982752f1cf8f24edb
 </body>
 
 <script src="assets/js/jquery.min.js"></script>
@@ -315,12 +366,15 @@
 
     function wrongAnswer(element,errorLbl){
         document.getElementById(element).className += " redBox";
+<<<<<<< HEAD
     }
 
     function nextButton1Function(){
         document.getElementById("step1").style.display = "none";
         document.getElementById("step2").style.display = "block";
         return false;
+=======
+>>>>>>> c1d3d1304a52752f8546bde982752f1cf8f24edb
     }
 </script>
 
