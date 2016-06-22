@@ -83,7 +83,7 @@
 <form role="form" method="post"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" >
 
     <!-- Step 1 content -->
-    <div id="step1">
+    <div id="step1" style="display: block;">
         <div>
             <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Introduction</h3>
 
@@ -98,15 +98,15 @@
 
         <!-- video -->
         <div class="col-xs-12" style="text-align:center;">
-            <iframe width="560" height="315"  style="border:1px solid black;" st src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0"
-                    allowfullscreen ></iframe>
-
+            <iframe width="560" height="315"  style="border:1px solid black;" st src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0" allowfullscreen ></iframe>
         </div>
-        <br> <br>
+        <br><br>
+
         <!-- Arrow -->
         <div class="col-xs-12" style="text-align:center;">
         <img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
         </div>
+
         <!-- Questionary -->
         <div id="targetDiv" class="col-xs-12" style="height: 600px; display: none;" >
 
@@ -167,25 +167,46 @@
         	</div>
 
             <div class="col-xs-12" style="top:525px; text-align: right;">
-                <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton" onclick="return(validateForm());">Submit</button>
+                <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton1" onclick="return(validateForm());">Submit</button>
             </div>
 
-                <div  class="col-xs-12" style="top: 525px; text-align: right;">
-                    <button id="nextButton" name="nextButton" class="btn btn-default hidden" style="background-color: #2a6496; color: #ffffff;" >Next</button>
-                </div>
+            <div  class="col-xs-12" style="top: 525px; text-align: right;">
+                <button id="nextButton1" name="nextButton1" class="btn btn-default hidden" style="background-color: #2a6496; color: #ffffff;" onclick="return(nextButton1Function());">Next</button>
+            </div>
             </form>
         </div>
     </div>
 
     <!-- Ste 2 content -->
-    <div id="step2"></div>
+    <div id="step2" style="display: none;">
+        <div>
+            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Phase 2</h3>
+
+            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... poornima... 
+                Let's begin learning with watching this video.
+            </p>
+        </div>
+        <br>
+
+        <!-- video -->
+        <div class="col-xs-12" style="text-align:center;">
+            <iframe width="560" height="315"  style="border:1px solid black;" st src="https://www.youtube.com/embed/voHZvhBrYJo" frameborder="0" allowfullscreen ></iframe>
+        </div>
+        <br><br>
+
+        <!-- Arrow -->
+        <div class="col-xs-12" style="text-align:center;">
+        <img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
+        </div>
+    </div>
 
     <!-- Ste 3 content -->
     <div id="step3"></div>
 
     <!-- Ste 4 content -->
     <div id="step4"></div>
-    
+
+</form>
 </body>
 
 <script src="assets/js/jquery.min.js"></script>
@@ -264,19 +285,17 @@
             }
 
             if(errors1.length >0){
-                $( "#submitButton" ).addClass( "hidden" );
-                $( "#nextButton" ).removeClass( "hidden" );
+                $( "#submitButton1" ).addClass( "hidden" );
+                $( "#nextButton1" ).removeClass( "hidden" );
                 return false;
             }else{
-                $( "#submitButton" ).addClass( "hidden" );
-                $( "#nextButton" ).removeClass( "hidden" );
+                $( "#submitButton1" ).addClass( "hidden" );
+                $( "#nextButton1" ).removeClass( "hidden" );
                 return false;
 
             }
         }
     }
-
-
 
     function selectValidationOnSubmit(val, errorLbl,element) {
         if (val == "0") {
@@ -296,6 +315,12 @@
 
     function wrongAnswer(element,errorLbl){
         document.getElementById(element).className += " redBox";
+    }
+
+    function nextButton1Function(){
+        document.getElementById("step1").style.display = "none";
+        document.getElementById("step2").style.display = "block";
+        return false;
     }
 </script>
 
