@@ -5,7 +5,7 @@ class DBConnection {
     private $_host = "localhost";
     private $_username = "root";
     private $_password = "1234";
-    private $_database = "pp";
+    private $_database = "pp_2";
     /*
     Get an instance of the Database
     @return Instance

@@ -15,15 +15,33 @@ if (isset($_POST['finalSubmit'])) {
     $db = DBConnection::getInstance();
     $mysqli = $db->getConnection();
 
-    $inQuery = "INSERT INTO user (q1,q2,q3,q4) VALUES ($q1, $q2, $q3, $q4);";
+    $lockQuery = "LOCK TABLES items";
+    $mysqli->query($lockQuery);
+
+    $inQuery = "INSERT INTO user (userName) VALUES ('pooh');";
     $result = $mysqli->query($inQuery);
+
+    $getUserIDQuery = "SELECT MAX(userID)as userID FROM user";
+    $userIDResult = $mysqli->query($getUserIDQuery);
+    $userIDArray = mysqli_fetch_assoc($userIDResult);
+    $userID = $userIDArray["userID"];
+
+
+    $insertQuery = "INSERT INTO useranswer (userID,QuestionID,correct) VALUES ('$userID',1,2);";
+    $result = $mysqli->query($insertQuery);
+
+
+    $unlockQuery = "UNLOCK TABLES";
+
+
+
+
     echo $result;
 
     // header('Location: DBConnection.php');
 
 }
 ?>
-
 <!DOCTYPE html>
 <html>
 <head lang="en">
