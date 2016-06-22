@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" style="padding: 10px 15px 0px; height: 46px;" >PC<strong style="color : #009b83; ">Know</strong></a>
+                <a class="navbar-brand" href="index.php" style="padding: 10px 15px 0px; height: 46px;" >PC<strong style="color : #009b83; ">Know</strong></a>
             </div>
              
             <ul class="nav navbar-right top-nav" >
@@ -90,7 +90,7 @@
 </div>
 <br>
 
-<div class="col-xs-6 col-xs-offset-3">
+<div class="col-xs-12" style="text-align:center;">
     <iframe width="560" height="315"  style="border:1px solid black;" st src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0"
             allowfullscreen ></iframe>
 
@@ -126,7 +126,7 @@
 	            <option value="3">VGA</option>
 	        </select>
 	    </div>
-	    <label id="errorq1" style="font-size: 15px; top: 148px; left: 23px;"></label>
+	    <label id="errorq1" style="font-size: 15px; "></label>
 	</div>
 
 	<div style="position: absolute; top: 254px; left: 218px;">
@@ -138,7 +138,7 @@
 	            <option value="3">Cooling Fan</option>
 	        </select>
 	    </div>
-	    <label id="errorq2" style="font-size: 15px; top: 304px; left: -546px;"></label>
+	    <label id="errorq2" style="font-size: 15px;"></label>
 	</div>
 	
 	<div style="position: absolute; top: 372px; left: 231px;">
@@ -150,7 +150,7 @@
 	            <option value="3">Cooling Fan</option>
 	        </select>
 	    </div>
-	    <label id="errorq3" style="font-size: 15px; top: 394px; left: 13px;"></label>
+	    <label id="errorq3" style="font-size: 15px;"></label>
 	</div>
 
 	<div style="position: absolute; top: 467px; left: 251px;">
@@ -162,7 +162,7 @@
 	            <option value="3">VGA</option>
 	        </select>
 	    </div>
-	    <label id="errorq4" style="font-size: 15px; top: 492px; left: -514px;"></label>
+	    <label id="errorq4" style="font-size: 15px;"></label>
 	</div>
 
     <div class="col-xs-12" style="top:525px; text-align: right;">
@@ -241,7 +241,6 @@
                 correctAnswer("q3box");
             }else {
                 wrongAnswer("q3box","errorq3");
-                document.getElementById("errorq3").style.top = "430px";
                 document.getElementById("errorq3").innerHTML = "Correct Answer : Processor Cooling Fan";
                 errors1.push("notok");
             }
@@ -250,7 +249,6 @@
                 correctAnswer("q4box");
             }else {
                 wrongAnswer("q4box","errorq4");
-                document.getElementById("errorq4").style.top = "520px";
                 document.getElementById("errorq4").innerHTML = "Correct Answer : Default Speakers";
                 errors1.push("notok");
             }
@@ -278,24 +276,16 @@
             return false;
         } else {
             document.getElementById(errorLbl).innerHTML = "";
-            document.getElementById(element).style.borderColor = "black";
             return true;
         }
     }
 
-
     function correctAnswer(element){
-        document.getElementById(element).style.borderColor = "green";
-
-
-
+        document.getElementById(element).className += " greenBox";
     }
 
     function wrongAnswer(element,errorLbl){
-        document.getElementById(element).style.borderColor = "red";
-        document.getElementById(errorLbl).style.color = "#808080";
-
-
+        document.getElementById(element).className += " redBox";
     }
 </script>
 
