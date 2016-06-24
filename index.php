@@ -1,5 +1,11 @@
 <?php
 
+function formatAns($ans){
+    if($ans == 0) {
+        return 0;
+    }
+}
+
 if (isset($_POST['finalSubmit'])) {
     $q1 = $q2 = $q3 = $q4 = "";
 
@@ -8,17 +14,21 @@ if (isset($_POST['finalSubmit'])) {
     $q3 = $_POST['q3'];
     $q4 = $_POST['q4'];
 
-    echo $q1, $q2, $q3, $q4;
-
-     require("DBConnection.php");
+    require("DBConnection.php");
 
     $db = DBConnection::getInstance();
     $mysqli = $db->getConnection();
 
-    $lockQuery = "LOCK TABLES items";
+    $lockQuery = "LOCK TABLES user";
     $mysqli->query($lockQuery);
 
-    $inQuery = "INSERT INTO user (userName) VALUES ('pooh');";
+    //temp query to test connection
+    // $query = "select * from part";
+    // $result = $mysqli->query($query);
+    // $array = mysqli_fetch_assoc($result);
+    // echo $array['partName'];
+
+    $inQuery = "INSERT INTO user (publicIP) VALUES ('".$_SERVER['REMOTE_ADDR']."');";
     $result = $mysqli->query($inQuery);
 
     $getUserIDQuery = "SELECT MAX(userID)as userID FROM user";
@@ -26,17 +36,17 @@ if (isset($_POST['finalSubmit'])) {
     $userIDArray = mysqli_fetch_assoc($userIDResult);
     $userID = $userIDArray["userID"];
 
-
-    $insertQuery = "INSERT INTO useranswer (userID,QuestionID,correct) VALUES ('$userID',1,2);";
-    $result = $mysqli->query($insertQuery);
-
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',1,'$q1');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',2,'$q2');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',3,'$q3');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',4,'$q4');";
+    $mysqli->query($insertQuery);
 
     $unlockQuery = "UNLOCK TABLES";
-
-
-
-
-    echo $result;
+    $mysqli->query($unlockQuery);
 
     // header('Location: DBConnection.php');
 
@@ -48,7 +58,7 @@ if (isset($_POST['finalSubmit'])) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Home</title>
+    <title>PCKnow</title>
 
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -169,10 +179,10 @@ if (isset($_POST['finalSubmit'])) {
             <div style="position: absolute; top: 96px; left: 244px;">
                 <div id="q1box" class="question-box" style="">
                     <select id="q1" name="q1" style="width:200px; color: black;">
-                        <option value="0">-- Select --</option>
-                        <option value="1">RAM</option>
-                        <option value="2">Power Supply Unit</option>
-                        <option value="3">VGA</option>
+                        <option value="-1">-- Select --</option>
+                        <option value="0">RAM</option>
+                        <option value="1">Power Supply Unit</option>
+                        <option value="0">VGA</option>
                     </select>
                 </div>
                 <label id="errorq1" style="font-size: 15px; "></label>
@@ -181,10 +191,10 @@ if (isset($_POST['finalSubmit'])) {
             <div style="position: absolute; top: 254px; left: 218px;">
                 <div id="q2box" class="question-box">
                     <select id="q2" name="q2" style="width:200px; color: black;">
-                        <option value="0">-- Select --</option>
-                        <option value="1">RAM</option>
-                        <option value="2">Processor Cooling Fan</option>
-                        <option value="3">Cooling Fan</option>
+                        <option value="-1">-- Select --</option>
+                        <option value="0">RAM</option>
+                        <option value="0">Processor Cooling Fan</option>
+                        <option value="1">Cooling Fan</option>
                     </select>
                 </div>
                 <label id="errorq2" style="font-size: 15px;"></label>
@@ -193,10 +203,10 @@ if (isset($_POST['finalSubmit'])) {
             <div style="position: absolute; top: 372px; left: 231px;">
                 <div id="q3box" class="question-box">
                     <select id="q3" name="q3" style="width:200px; color: black;">
-                        <option value="0">-- Select --</option>
+                        <option value="-1">-- Select --</option>
                         <option value="1">Processor Cooling Fan</option>
-                        <option value="2">Processor</option>
-                        <option value="3">Cooling Fan</option>
+                        <option value="0">Processor</option>
+                        <option value="0">Cooling Fan</option>
                     </select>
                 </div>
                 <label id="errorq3" style="font-size: 15px;"></label>
@@ -205,10 +215,10 @@ if (isset($_POST['finalSubmit'])) {
             <div style="position: absolute; top: 467px; left: 251px;">
                 <div id="q4box" class="question-box">
                     <select id="q4" name="q4" style="width:200px; color: black;">
-                        <option value="0">-- Select --</option>
-                        <option value="1">RAM</option>
-                        <option value="2">Default Speakers</option>
-                        <option value="3">VGA</option>
+                        <option value="-1">-- Select --</option>
+                        <option value="0">RAM</option>
+                        <option value="1">Default Speakers</option>
+                        <option value="0">VGA</option>
                     </select>
                 </div>
                 <label id="errorq4" style="font-size: 15px;"></label>
@@ -248,7 +258,7 @@ if (isset($_POST['finalSubmit'])) {
         <!-- video -->
         <div class="col-xs-12" style="text-align:center;">
             <iframe width="560" height="315" style="border:1px solid black;" st
-                    src="https://www.youtube.com/embed/voHZvhBrYJo" frameborder="0" allowfullscreen></iframe>
+                    src="https://www.youtube.com/embed/4X4-4Dv7qQk" frameborder="0" allowfullscreen></iframe>
         </div>
         <br><br>
 
@@ -316,7 +326,7 @@ if (isset($_POST['finalSubmit'])) {
             return false;
         } else {
             var errors1 = [];
-            if (val1 == 2) {
+            if (val1 == 1) {
                 correctAnswer("q1box");
             } else {
                 wrongAnswer("q1box", "errorq1");
@@ -324,7 +334,7 @@ if (isset($_POST['finalSubmit'])) {
                 errors1.push("notok");
             }
 
-            if (val2 == 3) {
+            if (val2 == 1) {
                 correctAnswer("q2box");
             } else {
                 wrongAnswer("q2box", "errorq2");
@@ -340,7 +350,7 @@ if (isset($_POST['finalSubmit'])) {
                 errors1.push("notok");
             }
 
-            if (val4 == 2) {
+            if (val4 == 1) {
                 correctAnswer("q4box");
             } else {
                 wrongAnswer("q4box", "errorq4");
@@ -362,7 +372,7 @@ if (isset($_POST['finalSubmit'])) {
     }
 
     function selectValidationOnSubmit(val, errorLbl, element) {
-        if (val == "0") {
+        if (val == "-1") {
             document.getElementById(errorLbl).innerHTML = "Please select a value";
             document.getElementById(errorLbl).style.color = "red";
             document.getElementById(element).style.borderColor = "red";
