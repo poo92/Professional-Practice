@@ -8,6 +8,20 @@
 	background: #e3e024;
 }
 
+#title{
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	padding: 10px;
+	font-size: 26px;
+}
+
+#step1questionbox{
+	position: absolute;
+	top: 600px;
+	text-align: center;
+}
+
 .container{
 	position: absolute;
 	margin-left: 160px;
@@ -112,8 +126,11 @@
 }
 
 .homeIntroductionParagraph{
-   text-align: center;
-    font-size:18px;
+   	text-align: justify;
+	font-size: 17px;
+	padding-top: 65px;
+	font-family: verdana;
+	color: #3a414b;
 }
 
 .goImage{

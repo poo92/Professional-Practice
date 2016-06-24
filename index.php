@@ -98,6 +98,8 @@ if (isset($_POST['finalSubmit'])) {
     <link href="assets/css/bootstrap.techie.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
     <script src="assets/js/jquery-2.1.4.min.js"></script>
 
 </head>
@@ -119,32 +121,36 @@ if (isset($_POST['finalSubmit'])) {
             <a class="navbar-brand" href="index.php" style="padding: 10px 15px 0px; height: 46px;">PC<strong
                     style="color : #009b83; ">Know</strong></a>
         </div>
-
-        <ul class="nav navbar-right top-nav">
-            <li class="dropdown">
-                <ul class="pagination pagination-sm" style="margin: 10px 0px;">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <div class="col-sm-8">
+            <div id="title" class="col-sm-offset-3">Introduction</div>
+        </div>
+        <div class="col-sm-3">
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <ul class="pagination pagination-sm" style="margin: 10px 0px;">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </nav>
 </div>
 <!-- header end -->
@@ -153,31 +159,33 @@ if (isset($_POST['finalSubmit'])) {
 
     <!-- Step 1 content -->
     <div id="step1" style="display: block;">
-        <div>
-            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHeader">Introduction</h3>
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
+                <p>This application is intended to improve your
+                    hardware
+                    knowledge in an interactive way. You can learn how to disassemble a CPU of a desktop computer while
+                    recognizing all
+                    the important hardware parts.
+                    <br>
+                    Let's begin learning with watching this video.
+                    <br><br>
+                </p>
+                <!-- Arrow -->
+                <div class="col-xs-12" style="text-align:center;">
+                    <img class="goImage" src="assets/img/arrow.png" onclick="return(showStep1());">
+                </div>
+            </div>
+            <br>
 
-            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">This application is intended to improve your
-                hardware
-                knowledge in an interactive way. You can learn how to disassemble a CPU of a desktop computer while
-                recognizing all
-                the important hardware parts.
-                <br>
-                Let's begin learning with watching this video.
-            </p>
+            <!-- video -->
+            <div class="col-xs-8" style="text-align:center;">
+
+                <iframe width="760" height="435" style="border:1px solid black;" src="https://www.youtube.com/embed/rH5RSR5rb4w?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br><br>
+
         </div>
-        <br>
-
-        <!-- video -->
-        <div class="col-xs-12" style="text-align:center;">
-
-                        <iframe width="560" height="315" style="border:1px solid black;" src="https://www.youtube.com/embed/rH5RSR5rb4w?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <br><br>
-
-        <!-- Arrow -->
-        <div class="col-xs-12" style="text-align:center;">
-            <img class="goImage" src="assets/img/arrow.png" onclick="return(showStep1());">
-        </div>
+        
 
         <!-- Questionary -->
         <div id="step1questionbox" class="col-xs-12" style="height: 600px; display: none;">
@@ -407,7 +415,7 @@ if (isset($_POST['finalSubmit'])) {
 
             <div class="col-xs-12" style="top: 525px; text-align: right;">
                 <button id="nextButton2" name="nextButton1" class="btn btn-default hidden"
-                        style="background-color: #2a6496; color: #ffffff;" onclick="return(nextButton1Function());">Next
+                        style="background-color: #2a6496; color: #ffffff;" onclick="return(nextButton2Function());">Next
                 </button>
             </div>
 
@@ -416,7 +424,16 @@ if (isset($_POST['finalSubmit'])) {
     </div>
 
     <!-- Ste 3 content -->
-    <div id="step3"></div>
+    <div id="step3" style="display: none;">
+        <div>
+            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Phase 3</h3>
+
+            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">Try to identify follow components
+            </p>
+        </div>
+        <br>
+
+    </div>
 
     <!-- Ste 4 content -->
     <div id="step4"></div>
@@ -439,6 +456,7 @@ if (isset($_POST['finalSubmit'])) {
                 scrollTop: $("#step1questionbox").offset().top
             }, 900);
         });
+        document.getElementById("title").innerHTML = "Phase 1";
     }
 
     function showStep2() {
@@ -691,6 +709,14 @@ if (isset($_POST['finalSubmit'])) {
     function nextButton1Function() {
         document.getElementById("step1").style.display = "none";
         document.getElementById("step2").style.display = "block";
+        document.getElementById("title").innerHTML = "Phase 2";
+        return false;
+    }
+
+    function nextButton2Function() {
+        document.getElementById("step2").style.display = "none";
+        document.getElementById("step3").style.display = "block";
+        document.getElementById("title").innerHTML = "Phase 3";
         return false;
     }
 </script>
