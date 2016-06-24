@@ -169,8 +169,8 @@ if (isset($_POST['finalSubmit'])) {
 
         <!-- video -->
         <div class="col-xs-12" style="text-align:center;">
-            <iframe width="560" height="315" style="border:1px solid black;" st
-                    src="https://www.youtube.com/embed/rH5RSR5rb4w" frameborder="0" allowfullscreen></iframe>
+
+                        <iframe width="560" height="315" style="border:1px solid black;" src="https://www.youtube.com/embed/rH5RSR5rb4w?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <br><br>
 
@@ -272,8 +272,7 @@ if (isset($_POST['finalSubmit'])) {
 
         <!-- video -->
         <div class="col-xs-12" style="text-align:center;">
-            <iframe width="560" height="315" style="border:1px solid black;" st
-                    src="https://www.youtube.com/embed/4X4-4Dv7qQk" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" style="border:1px solid black;"  src="https://www.youtube.com/embed/4X4-4Dv7qQk?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
         <br><br>
 
