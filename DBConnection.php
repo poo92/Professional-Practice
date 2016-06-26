@@ -26,7 +26,7 @@ class DBConnection {
             trigger_error("Failed to connect to to MySQL: " . mysql_connect_error(),
                 E_USER_ERROR);
         } else {
-        	echo "connection established";
+        	//echo "connection established";
         }
     }
     // Magic method clone is empty to prevent duplication of connection

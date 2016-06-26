@@ -2,7 +2,190 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39e443ed-2e74-4596-b427-0733df56700c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/10_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/10_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/11_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/11_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/12_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/12_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/6_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/6_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/7_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/7_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/8_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/8_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/9_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/example/9_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Converters.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Converters.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Converters.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Converters.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Core.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Core.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Core.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Css.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Css.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Css.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Css.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Dom.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Dom.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Dom.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Dom.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Model.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Model.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Model.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Model.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Gdi.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Gdi.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Rendering.Wpf.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Runtime.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Runtime.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Bin/FusionCharts.SharpVectors.Runtime.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Bin/FusionCharts.SharpVectors.Runtime.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/blog-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/chart-fiddles-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/chart-fiddles-thumbnail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/dashboard-example-thumbnail.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/dashboard-example-thumbnail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/dashboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/dashboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_nav_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_nav_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_ne.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_nw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_se.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_sw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_shadow_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_title_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_title_main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_title_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancy_title_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancybox-x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancybox-y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/fancybox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/fc-logo-gray.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/fc-logo-gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/java-export-handler/fcexporter.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/fusionchart-xt-doc-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/fusioncharts-logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/fusioncharts-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/fusioncharts-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/fusioncharts-suite-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/hero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/homepage-device-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/icons.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/left-bracket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo-docs-landing-library-only.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo-main-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo-main-footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo-main-header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo-main-header@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo-maps-landing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo-maps-landing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/nav-arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/open-folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/or-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/right-bracket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/section-divider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/support-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/top-repeat-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/white-texture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/img/world-map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/FCExporter.aspx.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/FCExporter.aspx.vb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/FCExporter.aspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/FCExporter.aspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/FCExporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/Resources/FCExporter_RLE2IMG.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/Resources/FCExporter_RLE2PDF.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/Resources/FCExporter_SVG2ALL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-vb-export-handler/Web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/__jquery.fancybox-1.3.4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/addRule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/ajax.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/banlist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/includes/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/deleteRules.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/editRule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/exportList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.gantt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.maps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/fusioncharts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.powercharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/themes/fusioncharts.theme.carbon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/themes/fusioncharts.theme.fint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/themes/fusioncharts.theme.ocean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/themes/fusioncharts.theme.zune.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.treemap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/maps/fusioncharts.usa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.widgets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/maps/fusioncharts.world.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/fusioncharts.zoomscatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/scripts/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/insertToDb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/jquery-1.4.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/jquery.easing-1.3.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/knowledgeMeasure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/includes/leftmenu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/css/mainstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/asp-export-handler/Exported_Images/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/java-export-handler/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/js/maps/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/sanitizer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/js/jquery.fancybox-1.3.4/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/assets/css/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/test_curl.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/test_inkscape.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fusioncharts/export-handlers/php-export-handler/admin/writehtaccess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBConnection.php" afterPath="$PROJECT_DIR$/DBConnection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,50 +210,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28521127" vertical-offset="4241" max-vertical-offset="6902">
-              <caret line="259" column="11" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
+            <state vertical-scroll-proportion="67.34615" vertical-offset="2346" max-vertical-offset="6817">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="37" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-                <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-                <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-                <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-                <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-                <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+                <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+                <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+                <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+                <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+                <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+                <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knowledgeMeasure.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/knowledgeMeasure.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.67077464" vertical-offset="1438" max-vertical-offset="2023">
+              <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1466920470778" expanded="true" signature="436:499" placeholder="SELECT count..useranswer..." />
+                <marker date="1466920470778" expanded="true" signature="733:868" placeholder="SELECT partN..useranswer..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBConnection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.538462" vertical-offset="150" max-vertical-offset="731">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainCSS.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/mainCSS.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,8 +275,10 @@
         <option value="$PROJECT_DIR$/q1.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/Queries.php" />
-        <option value="$PROJECT_DIR$/DBConnection.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/DBConnection.php" />
+        <option value="$PROJECT_DIR$/knowledgeMeasure.php" />
       </list>
     </option>
   </component>
@@ -148,38 +336,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Professional-Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Professional-Practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -202,6 +358,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Professional-Practice\fusioncharts" />
+      <recent name="C:\wamp\www\Professional-Practice\chart" />
+      <recent name="C:\wamp\www\Professional-Practice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\Professional-Practice\assets\css" />
     </key>
@@ -488,12 +649,14 @@
       <workItem from="1466567105461" duration="5031000" />
       <workItem from="1466573963593" duration="3778000" />
       <workItem from="1466580977383" duration="8721000" />
-      <workItem from="1466742228532" duration="2660000" />
+      <workItem from="1466742228532" duration="9553000" />
+      <workItem from="1466864175999" duration="596000" />
+      <workItem from="1466915121168" duration="4783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54331000" />
+    <option name="totallyTimeSpent" value="66603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -524,7 +687,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -551,6 +714,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="6817">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/mainCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="6817">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/mainCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/mainCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
@@ -563,43 +772,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5814">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -608,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="697">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,43 +808,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5253">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -691,43 +837,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -751,43 +866,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4233">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -811,43 +895,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4233">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -871,43 +924,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4216">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -931,43 +953,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3995">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -991,43 +982,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3995">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1051,43 +1011,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1104,43 +1033,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1157,43 +1055,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1241">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1202,13 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/mainCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1226,56 +1086,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.497529" vertical-offset="3337" max-vertical-offset="3944">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/mainCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fusioncharts/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8823">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fusioncharts/fusioncharts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44665462" vertical-offset="671" max-vertical-offset="1224">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DBConnection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.11187608" vertical-offset="150" max-vertical-offset="731">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="33" />
+        <state vertical-scroll-proportion="-12.538462" vertical-offset="150" max-vertical-offset="731">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28521127" vertical-offset="4241" max-vertical-offset="6902">
-          <caret line="259" column="11" selection-start-line="259" selection-start-column="11" selection-end-line="259" selection-end-column="11" />
+        <state vertical-scroll-proportion="67.34615" vertical-offset="2346" max-vertical-offset="6817">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="37" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#3;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#4;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#5;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#6;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1466745732405" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
-            <marker date="1466745732405" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
-            <marker date="1466745732405" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="635:701" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="769:806" placeholder="SELECT MAX(u..user..." />
+            <marker date="1466746174050" expanded="true" signature="975:1049" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1107:1181" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1239:1313" placeholder="INSERT INTO ..." />
+            <marker date="1466746174050" expanded="true" signature="1371:1445" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledgeMeasure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67077464" vertical-offset="1438" max-vertical-offset="2023">
+          <caret line="107" column="8" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1466920470778" expanded="true" signature="436:499" placeholder="SELECT count..useranswer..." />
+            <marker date="1466920470778" expanded="true" signature="733:868" placeholder="SELECT partN..useranswer..." />
           </folding>
         </state>
       </provider>
