@@ -44,3 +44,13 @@ INSERT INTO `part`(`partName`) VALUES ('Power Suppy Unit');
 INSERT INTO `part`(`partName`) VALUES ('Cooling Fan');
 INSERT INTO `part`(`partName`) VALUES ('Processor Cooling Fan');
 INSERT INTO `part`(`partName`) VALUES ('Default Speaker');
+
+INSERT INTO `part`(`partName`) VALUES ('South bridge');
+INSERT INTO `part`(`partName`) VALUES ('SATA connector');
+INSERT INTO `part`(`partName`) VALUES ('Motherboard power connector');
+INSERT INTO `part`(`partName`) VALUES ('RAM slot');
+INSERT INTO `part`(`partName`) VALUES ('IDE connector');
+INSERT INTO `part`(`partName`) VALUES ('PCI slot');
+INSERT INTO `part`(`partName`) VALUES ('AGP slot');
+INSERT INTO `part`(`partName`) VALUES ('North bridge');
+INSERT INTO `part`(`partName`) VALUES ('Processor');

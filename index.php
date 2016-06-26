@@ -7,12 +7,23 @@ function formatAns($ans){
 }
 
 if (isset($_POST['finalSubmit'])) {
-    $q1 = $q2 = $q3 = $q4 = "";
+    $s1q1 = $s1q2 = $s1q3 = $s1q4 = "";
+    $s2q1 = $s2q2 = $s2q3 = $s2q4 = $s2q5 = $s2q6 = $s2q7 = $s2q8 = $s2q9 = "";
 
-    $q1 = $_POST['q1'];
-    $q2 = $_POST['q2'];
-    $q3 = $_POST['q3'];
-    $q4 = $_POST['q4'];
+    $s1q1 = $_POST['s1q1'];
+    $s1q2 = $_POST['s1q2'];
+    $s1q3 = $_POST['s1q3'];
+    $s1q4 = $_POST['s1q4'];
+
+    $s2q1 = $_POST['s2q1'];
+    $s2q2 = $_POST['s2q2'];
+    $s2q3 = $_POST['s2q3'];
+    $s2q4 = $_POST['s2q4'];
+    $s2q5 = $_POST['s2q5'];
+    $s2q6 = $_POST['s2q6'];
+    $s2q7 = $_POST['s2q7'];
+    $s2q8 = $_POST['s2q8'];
+    $s2q9 = $_POST['s2q9'];
 
     require("DBConnection.php");
 
@@ -36,13 +47,32 @@ if (isset($_POST['finalSubmit'])) {
     $userIDArray = mysqli_fetch_assoc($userIDResult);
     $userID = $userIDArray["userID"];
 
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',1,'$q1');";
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',1,'$s1q1');";
     $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',2,'$q2');";
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',2,'$s1q2');";
     $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',3,'$q3');";
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',3,'$s1q3');";
     $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',4,'$q4');";
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',4,'$s1q4');";
+    $mysqli->query($insertQuery);
+
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',5,'$s2q1');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',6,'$s2q2');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',7,'$s2q3');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',8,'$s2q4');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',9,'$s2q5');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',10,'$s2q6');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',11,'$s2q7');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',12,'$s2q8');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',13,'$s2q9');";
     $mysqli->query($insertQuery);
 
     $unlockQuery = "UNLOCK TABLES";
@@ -68,23 +98,9 @@ if (isset($_POST['finalSubmit'])) {
     <link href="assets/css/bootstrap.techie.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
     <script src="assets/js/jquery-2.1.4.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $("#pro").click(function () {
-                $("#1").slideDown(500);
-                $("#2").hide('fast');
-            });
-        });
-
-        $(document).ready(function () {
-            $("#full").click(function () {
-                $("#2").slideDown(500);
-                $("#1").hide('fast');
-            });
-        });
-    </script>
 
 </head>
 
@@ -105,32 +121,36 @@ if (isset($_POST['finalSubmit'])) {
             <a class="navbar-brand" href="index.php" style="padding: 10px 15px 0px; height: 46px;">PC<strong
                     style="color : #009b83; ">Know</strong></a>
         </div>
-
-        <ul class="nav navbar-right top-nav">
-            <li class="dropdown">
-                <ul class="pagination pagination-sm" style="margin: 10px 0px;">
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <div class="col-sm-8">
+            <div id="title" class="col-sm-offset-3">Introduction</div>
+        </div>
+        <div class="col-sm-3">
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <ul class="pagination pagination-sm" style="margin: 10px 0px;">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </nav>
 </div>
 <!-- header end -->
@@ -139,94 +159,97 @@ if (isset($_POST['finalSubmit'])) {
 
     <!-- Step 1 content -->
     <div id="step1" style="display: block;">
-        <div>
-            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Introduction</h3>
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
+                <p>This application is intended to improve your
+                    hardware
+                    knowledge in an interactive way. You can learn how to disassemble a CPU of a desktop computer while
+                    recognizing all
+                    the important hardware parts.
+                    <br>
+                    Let's begin learning with watching this video.
+                    <br><br>
+                </p>
+                <!-- Arrow -->
+                <div class="col-xs-12" style="text-align:center;">
+                    <img class="goImage" src="assets/img/arrow.png" onclick="return(showStep1());">
+                </div>
+            </div>
+            <br>
 
-            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">This application is intended to improve your
-                hardware
-                knowledge in an interactive way. You can learn how to disassemble a CPU of a desktop computer while
-                recognizing all
-                the important hardware parts.
-                <br>
-                Let's begin learning with watching this video.
-            </p>
+            <!-- video -->
+            <div class="col-xs-8" style="text-align:center;">
+
+                <iframe width="760" height="435" style="border:1px solid black;" src="https://www.youtube.com/embed/rH5RSR5rb4w?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br><br>
+
         </div>
-        <br>
-
-        <!-- video -->
-        <div class="col-xs-12" style="text-align:center;">
-
-                        <iframe width="560" height="315" style="border:1px solid black;" src="https://www.youtube.com/embed/rH5RSR5rb4w?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <br><br>
-
-        <!-- Arrow -->
-        <div class="col-xs-12" style="text-align:center;">
-            <img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
-        </div>
+        
 
         <!-- Questionary -->
-        <div id="targetDiv" class="col-xs-12" style="height: 600px; display: none;">
+        <div id="step1questionbox" class="col-xs-12" style="height: 600px; display: none;">
 
             <div id="imageDiv" class="image container">
-                <img src="assets/img/q1/cpu-first-look.png" class="full-cpu" id="full">
-                <img src="assets/img/q1/processer-fan.png" class="component processor" id="pro">
-                <img src="assets/img/q1/power-supply.png" class="component powersupply" id="powersupply">
-                <img src="assets/img/q1/cooling-fan.png" class="component fan" id="fan">
-                <img src="assets/img/q1/speeker.png" class="component speeker" id="speeker">
+                <img src="assets/img/step1/cpu-first-look.png" class="full-cpu" id="full">
+                <img src="assets/img/step1/processer-fan.png" class="component processor" id="pro">
+                <img src="assets/img/step1/power-supply.png" class="component powersupply" id="powersupply">
+                <img src="assets/img/step1/cooling-fan.png" class="component fan" id="fan">
+                <img src="assets/img/step1/speeker.png" class="component speeker" id="speeker">
             </div>
 
             <div style="position: absolute; top: 96px; left: 244px;">
-                <div id="q1box" class="question-box" style="">
-                    <select id="q1" name="q1" style="width:200px; color: black;">
+                <!-- <img src="assets/img/tick.png" class="question-box-icon"> -->
+                <div id="s1q1box" class="question-box" style="">
+                    <select id="s1q1" name="s1q1" style="width:200px; color: black;">
                         <option value="-1">-- Select --</option>
                         <option value="0">RAM</option>
                         <option value="1">Power Supply Unit</option>
                         <option value="0">VGA</option>
                     </select>
                 </div>
-                <label id="errorq1" style="font-size: 15px; "></label>
+                <label id="errors1q1" style="font-size: 15px; "></label>
             </div>
 
             <div style="position: absolute; top: 254px; left: 218px;">
-                <div id="q2box" class="question-box">
-                    <select id="q2" name="q2" style="width:200px; color: black;">
+                <div id="s1q2box" class="question-box">
+                    <select id="s1q2" name="s1q2" style="width:200px; color: black;">
                         <option value="-1">-- Select --</option>
                         <option value="0">RAM</option>
                         <option value="0">Processor Cooling Fan</option>
                         <option value="1">Cooling Fan</option>
                     </select>
                 </div>
-                <label id="errorq2" style="font-size: 15px;"></label>
+                <label id="errors1q2" style="font-size: 15px;"></label>
             </div>
 
             <div style="position: absolute; top: 372px; left: 231px;">
-                <div id="q3box" class="question-box">
-                    <select id="q3" name="q3" style="width:200px; color: black;">
+                <div id="s1q3box" class="question-box">
+                    <select id="s1q3" name="s1q3" style="width:200px; color: black;">
                         <option value="-1">-- Select --</option>
                         <option value="1">Processor Cooling Fan</option>
                         <option value="0">Processor</option>
                         <option value="0">Cooling Fan</option>
                     </select>
                 </div>
-                <label id="errorq3" style="font-size: 15px;"></label>
+                <label id="errors1q3" style="font-size: 15px;"></label>
             </div>
 
             <div style="position: absolute; top: 467px; left: 251px;">
-                <div id="q4box" class="question-box">
-                    <select id="q4" name="q4" style="width:200px; color: black;">
+                <div id="s1q4box" class="question-box">
+                    <select id="s1q4" name="s1q4" style="width:200px; color: black;">
                         <option value="-1">-- Select --</option>
                         <option value="0">RAM</option>
                         <option value="1">Default Speakers</option>
                         <option value="0">VGA</option>
                     </select>
                 </div>
-                <label id="errorq4" style="font-size: 15px;"></label>
+                <label id="errors1q4" style="font-size: 15px;"></label>
             </div>
 
             <div class="col-xs-12" style="top:525px; text-align: right;">
                 <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton1"
-                        onclick="return(validateForm());">Submit
+                        onclick="return(validateForms1());">Submit
                 </button>
             </div>
 
@@ -258,12 +281,154 @@ if (isset($_POST['finalSubmit'])) {
 
         <!-- Arrow -->
         <div class="col-xs-12" style="text-align:center;">
-            <img id="goImage" src="assets/img/arrow.png" onclick="return(alertMessage());">
+            <img class="goImage" src="assets/img/arrow.png" onclick="return(showStep2());">
         </div>
+
+        <!-- Questionary -->
+        <div id="step2questionbox" class="col-xs-12" style="height: 600px; display: none;">
+
+            <div id="imageDiv" class="image container">
+                <img src="assets/img/step2/motherboard.png" id="motherboard">
+            </div>
+
+            <!-- Left side -->
+            <div style="position: absolute; top: 60px; left: 131px;">
+                <div id="s2q1box" class="question-box">
+                    <select id="s2q1" name="s2q1" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="1">South bridge</option>
+                        <option value="0">North bridge</option>
+                        <option value="0">CMOS battery</option>
+                    </select>
+                </div>
+                <label id="errors2q1" style="font-size: 15px; "></label>
+            </div>
+
+            <div style="position: absolute; top: 145px; left: 120px;">
+                <div id="s2q2box" class="question-box">
+                    <select id="s2q2" name="s2q2" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="0">IDE connector</option>
+                        <option value="0">Serial connector</option>
+                        <option value="1">SATA connector</option>
+                    </select>
+                </div>
+                <label id="errors2q2" style="font-size: 15px; "></label>
+            </div>
+
+            <div style="position: absolute; top: 255px; left: 110px;">
+                <div id="s2q3box" class="question-box">
+                    <select id="s2q3" name="s2q3" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="0">PCI slot</option>
+                        <option value="1">Motherboard power connector</option>
+                        <option value="0">IDE connector</option>
+                    </select>
+                </div>
+                <label id="errors2q3" style="font-size: 15px; "></label>
+            </div>
+
+            <div style="position: absolute; top: 359px; left: 118px;">
+                <div id="s2q4box" class="question-box">
+                    <select id="s2q4" name="s2q4" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="0">AGD slot</option>
+                        <option value="0">PCI slot</option>
+                        <option value="1">RAM slot</option>
+                    </select>
+                </div>
+                <label id="errors2q4" style="font-size: 15px; "></label>
+            </div>
+
+            <div style="position: absolute; top: 463px; left: 130px;">
+                <div id="s2q5box" class="question-box">
+                    <select id="s2q5" name="s2q5" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="1">IDE connector</option>
+                        <option value="0">SATA connector</option>
+                        <option value="0">RAM slot</option>
+                    </select>
+                </div>
+                <label id="errors2q5" style="font-size: 15px; "></label>
+            </div>
+
+            <!-- Right side -->
+
+            <div style="position: absolute; top: 61px; left: 966px;">
+                <div id="s2q6box" class="question-box">
+                    <select id="s2q6" name="s2q6" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="1">PCI slot</option>
+                        <option value="0">IDE connector</option>
+                        <option value="0">SATA connector</option>
+                    </select>
+                </div>
+                <label id="errors2q6" style="font-size: 15px; "></label>
+            </div>
+
+            <div style="position: absolute; top: 185px; left: 984px;">
+                <div id="s2q7box" class="question-box">
+                    <select id="s2q7" name="s2q7" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="0">Processor</option>
+                        <option value="0">RAM slot</option>
+                        <option value="1">AGP slot</option>
+                    </select>
+                </div>
+                <label id="errors2q7" style="font-size: 15px; "></label>
+            </div>
+
+            <div style="position: absolute; top: 271px; left: 985px;">
+                <div id="s2q8box" class="question-box">
+                    <select id="s2q8" name="s2q8" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="0">South bridge</option>
+                        <option value="1">North bridge</option>
+                        <option value="0">CMOS battery</option>
+                    </select>
+                </div>
+                <label id="errors2q8" style="font-size: 15px; "></label>
+            </div>
+
+            <div style="position: absolute; top: 418px; left: 984px;">
+                <div id="s2q9box" class="question-box">
+                    <select id="s2q9" name="s2q9" style="width:200px; color: black;">
+                        <option value="-1">-- Select --</option>
+                        <option value="0">IDE connector</option>
+                        <option value="0">SATA connector</option>
+                        <option value="1">Processor</option>
+                    </select>
+                </div>
+                <label id="errors2q9" style="font-size: 15px; "></label>
+            </div>
+
+            <div class="col-xs-12" style="top:525px; text-align: right;">
+                <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton2"
+                        onclick="return(validateForms2());">Submit
+                </button>
+            </div>
+
+            <div class="col-xs-12" style="top: 525px; text-align: right;">
+                <button id="nextButton2" name="nextButton1" class="btn btn-default hidden"
+                        style="background-color: #2a6496; color: #ffffff;" onclick="return(nextButton2Function());">Next
+                </button>
+            </div>
+
+        </div>
+
     </div>
 
     <!-- Ste 3 content -->
-    <div id="step3"></div>
+    <div id="step3" style="display: none;">
+        <div>
+            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Phase 3</h3>
+
+            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">Try to identify follow components
+            </p>
+        </div>
+        <br>
+
+    </div>
 
     <!-- Ste 4 content -->
     <div id="step4"></div>
@@ -279,76 +444,83 @@ if (isset($_POST['finalSubmit'])) {
 
 <script src="assets/js/jquery.min.js"></script>
 <script>
-    function alertMessage() {
+    function showStep1() {
 
-        $("#targetDiv").slideDown("fast", function () {
+        $("#step1questionbox").slideDown("fast", function () {
             $('html, body').animate({
-                scrollTop: $("#targetDiv").offset().top
+                scrollTop: $("#step1questionbox").offset().top
             }, 900);
         });
-
-        e.preventDefault();
-        e.stopPropagation();
+        document.getElementById("title").innerHTML = "Phase 1";
     }
+
+    function showStep2() {
+
+        $("#step2questionbox").slideDown("fast", function () {
+            $('html, body').animate({
+                scrollTop: $("#step2questionbox").offset().top
+            }, 900);
+        });
+    }
+
 </script>
 
 <script>
-    function validateForm() {
+    function validateForms1() {
         var errors = [];
 
-        var val1 = document.getElementById("q1").value;
-        if (!selectValidationOnSubmit(val1, "errorq1", "q1box")) {
-            errors.push("errorq1");
+        var val1 = document.getElementById("s1q1").value;
+        if (!selectValidationOnSubmit(val1, "errors1q1", "s1q1box")) {
+            errors.push("errors1q1");
         }
-        var val2 = document.getElementById("q2").value;
-        if (!selectValidationOnSubmit(val2, "errorq2", "q2box")) {
-            errors.push("errorq2");
-        }
-
-        var val3 = document.getElementById("q3").value;
-        if (!selectValidationOnSubmit(val3, "errorq3", "q3box")) {
-            errors.push("errorq3");
+        var val2 = document.getElementById("s1q2").value;
+        if (!selectValidationOnSubmit(val2, "errors1q2", "s1q2box")) {
+            errors.push("errors1q2");
         }
 
-        var val4 = document.getElementById("q4").value;
-        if (!selectValidationOnSubmit(val4, "errorq4", "q4box")) {
-            errors.push("errorq4");
+        var val3 = document.getElementById("s1q3").value;
+        if (!selectValidationOnSubmit(val3, "errors1q3", "s1q3box")) {
+            errors.push("errors1q3");
         }
 
+        var val4 = document.getElementById("s1q4").value;
+        if (!selectValidationOnSubmit(val4, "errors1q4", "s1q4box")) {
+            errors.push("errors1q4");
+        }
 
         if (errors.length > 0) {
             return false;
         } else {
             var errors1 = [];
             if (val1 == 1) {
-                correctAnswer("q1box");
+                correctAnswer("s1q1box");
             } else {
-                wrongAnswer("q1box", "errorq1");
-                document.getElementById("errorq1").innerHTML = "Correct Answer : Power Supply Unit";
+                wrongAnswer("s1q1box", "errors1q1");
+                document.getElementById("errors1q1").innerHTML = "Correct Answer : Power Supply Unit";
                 errors1.push("notok");
             }
 
             if (val2 == 1) {
-                correctAnswer("q2box");
+                correctAnswer("s1q2box");
             } else {
-                wrongAnswer("q2box", "errorq2");
-                document.getElementById("errorq2").innerHTML = "Correct Answer : Cooling Fan";
+                wrongAnswer("s1q2box", "errors1q2");
+                document.getElementById("errors1q2").innerHTML = "Correct Answer : Cooling Fan";
                 errors1.push("notok");
             }
 
             if (val3 == 1) {
-                correctAnswer("q3box");
+                correctAnswer("s1q3box");
             } else {
-                wrongAnswer("q3box", "errorq3");
-                document.getElementById("errorq3").innerHTML = "Correct Answer : Processor Cooling Fan";
+                wrongAnswer("s1q3box", "errors1q3");
+                document.getElementById("errors1q3").innerHTML = "Correct Answer : Processor Cooling Fan";
                 errors1.push("notok");
             }
 
             if (val4 == 1) {
-                correctAnswer("q4box");
+                correctAnswer("s1q4box");
             } else {
-                wrongAnswer("q4box", "errorq4");
-                document.getElementById("errorq4").innerHTML = "Correct Answer : Default Speakers";
+                wrongAnswer("s1q4box", "errors1q4");
+                document.getElementById("errors1q4").innerHTML = "Correct Answer : Default Speakers";
                 errors1.push("notok");
             }
 
@@ -365,11 +537,145 @@ if (isset($_POST['finalSubmit'])) {
         }
     }
 
+    function validateForms2() {
+        var errors = [];
+
+        var val1 = document.getElementById("s2q1").value;
+        if (!selectValidationOnSubmit(val1, "errors2q1", "s2q1box")) {
+            errors.push("errors2q1");
+        }
+        var val2 = document.getElementById("s2q2").value;
+        if (!selectValidationOnSubmit(val2, "errors2q2", "s2q2box")) {
+            errors.push("errors2q2");
+        }
+
+        var val3 = document.getElementById("s2q3").value;
+        if (!selectValidationOnSubmit(val3, "errors2q3", "s2q3box")) {
+            errors.push("errors2q3");
+        }
+
+        var val4 = document.getElementById("s2q4").value;
+        if (!selectValidationOnSubmit(val4, "errors2q4", "s2q4box")) {
+            errors.push("errors2q4");
+        }
+
+        var val5 = document.getElementById("s2q5").value;
+        if (!selectValidationOnSubmit(val5, "errors2q5", "s2q5box")) {
+            errors.push("errors2q5");
+        }
+        var val6 = document.getElementById("s2q6").value;
+        if (!selectValidationOnSubmit(val6, "errors2q6", "s2q6box")) {
+            errors.push("errors2q6");
+        }
+
+        var val7 = document.getElementById("s2q7").value;
+        if (!selectValidationOnSubmit(val7, "errors2q7", "s2q7box")) {
+            errors.push("errors2q7");
+        }
+
+        var val8 = document.getElementById("s2q8").value;
+        if (!selectValidationOnSubmit(val8, "errors2q8", "s2q8box")) {
+            errors.push("errors2q8");
+        }
+
+        var val9 = document.getElementById("s2q9").value;
+        if (!selectValidationOnSubmit(val9, "errors2q9", "s2q9box")) {
+            errors.push("errors2q9");
+        }
+
+        if (errors.length > 0) {
+            return false;
+        } else {
+            var errors2 = [];
+            if (val1 == 1) {
+                correctAnswer("s2q1box");
+            } else {
+                wrongAnswer("s2q1box", "errors2q1");
+                document.getElementById("errors2q1").innerHTML = "Correct Answer : South bridge";
+                errors2.push("notok");
+            }
+
+            if (val2 == 1) {
+                correctAnswer("s2q2box");
+            } else {
+                wrongAnswer("s2q2box", "errors2q2");
+                document.getElementById("errors2q2").innerHTML = "Correct Answer : SATA connector";
+                errors2.push("notok");
+            }
+
+            if (val3 == 1) {
+                correctAnswer("s2q3box");
+            } else {
+                wrongAnswer("s2q3box", "errors2q3");
+                document.getElementById("errors2q3").innerHTML = "Correct Answer :<br>Motherboard power connector";
+                errors2.push("notok");
+            }
+
+            if (val4 == 1) {
+                correctAnswer("s2q4box");
+            } else {
+                wrongAnswer("s2q4box", "errors2q4");
+                document.getElementById("errors2q4").innerHTML = "Correct Answer : RAM slot";
+                errors2.push("notok");
+            }
+
+            if (val5 == 1) {
+                correctAnswer("s2q5box");
+            } else {
+                wrongAnswer("s2q5box", "errors2q5");
+                document.getElementById("errors2q5").innerHTML = "Correct Answer : IDE connector";
+                errors2.push("notok");
+            }
+
+            if (val6 == 1) {
+                correctAnswer("s2q6box");
+            } else {
+                wrongAnswer("s2q6box", "errors2q6");
+                document.getElementById("errors2q6").innerHTML = "Correct Answer : PCI slot";
+                errors2.push("notok");
+            }
+
+            if (val7 == 1) {
+                correctAnswer("s2q7box");
+            } else {
+                wrongAnswer("s2q7box", "errors2q7");
+                document.getElementById("errors2q7").innerHTML = "Correct Answer : AGP slot";
+                errors2.push("notok");
+            }
+
+            if (val8 == 1) {
+                correctAnswer("s2q8box");
+            } else {
+                wrongAnswer("s2q8box", "errors2q8");
+                document.getElementById("errors2q8").innerHTML = "Correct Answer : North bridge";
+                errors2.push("notok");
+            }
+
+            if (val9 == 1) {
+                correctAnswer("s2q9box");
+            } else {
+                wrongAnswer("s2q9box", "errors2q9");
+                document.getElementById("errors2q9").innerHTML = "Correct Answer : Processor";
+                errors2.push("notok");
+            }
+
+            if (errors2.length > 0) {
+                $("#submitButton2").addClass("hidden");
+                $("#nextButton2").removeClass("hidden");
+            } else {
+                $("#submitButton2").addClass("hidden");
+                $("#nextButton2").removeClass("hidden");
+            }
+
+            return false;
+        }
+    }
+
     function selectValidationOnSubmit(val, errorLbl, element) {
         if (val == "-1") {
             document.getElementById(errorLbl).innerHTML = "Please select a value";
             document.getElementById(errorLbl).style.color = "red";
-            document.getElementById(element).style.borderColor = "red";
+            document.getElementById(element).className += " redBox";
             return false;
         } else {
             document.getElementById(errorLbl).innerHTML = "";
@@ -379,15 +685,33 @@ if (isset($_POST['finalSubmit'])) {
 
     function correctAnswer(element) {
         document.getElementById(element).className += " greenBox";
+        var img = document.createElement("img");
+        img.src = "assets/img/tick.png";
+        img.style = "position: absolute; height: 24px; top: -13px;"
+
+        document.getElementById(element).appendChild(img);
     }
 
     function wrongAnswer(element, errorLbl) {
         document.getElementById(element).className += " redBox";
+        var img = document.createElement("img");
+        img.src = "assets/img/cross.png";
+        img.style = "position: absolute; height: 24px; top: -13px;"
+
+        document.getElementById(element).appendChild(img);
     }
 
     function nextButton1Function() {
         document.getElementById("step1").style.display = "none";
         document.getElementById("step2").style.display = "block";
+        document.getElementById("title").innerHTML = "Phase 2";
+        return false;
+    }
+
+    function nextButton2Function() {
+        document.getElementById("step2").style.display = "none";
+        document.getElementById("step3").style.display = "block";
+        document.getElementById("title").innerHTML = "Phase 3";
         return false;
     }
 </script>

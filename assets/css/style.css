@@ -8,6 +8,20 @@
 	background: #e3e024;
 }
 
+#title{
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	padding: 10px;
+	font-size: 26px;
+}
+
+#step1questionbox{
+	position: absolute;
+	top: 600px;
+	text-align: center;
+}
+
 .container{
 	position: absolute;
 	margin-left: 160px;
@@ -34,24 +48,24 @@
 	transform: scale(1.4);
 }
 
-.processor{
-	top: 216px;
-	left: 487px;
-	height: 123px;
-}
-
-
-.w{
-	width: 600px;
-    height: 400px;
-    background: red;
-}
-
 .question-box{
 	border-radius: 5px;
 	border: 2px solid black;
 	padding: 10px;
 	width: 225px;
+}
+
+/*Step 1 image CSS*/
+.powersupply {
+	top: 32px;
+	left: 359px;
+	height: 165px;
+}
+
+.processor{
+	top: 216px;
+	left: 487px;
+	height: 123px;
 }
 
 .fan{
@@ -66,36 +80,65 @@
 	height: 92px;
 }
 
-.PCI{
+/*Step 2 image CSS*/
+#motherboard{
+	position: absolute;
+	top: 0px;
+	left: 64px;
+	height: 555px;
+}
+
+#PCI{
 	top: 465px;
 	left: 336px;
 	height: 15px;
 }
 
-.south_bridge{
+#south-bridge{
 	top: 385px;
 	left: 485px;
 	height: 38px;
 }
 
-.powersupply {
-	top: 32px;
-	left: 359px;
-	height: 165px;
-}
 
 .hidden{
 	display: none;
 }
 
-.greenBox{
-	filter: drop-shadow(0px 0px 2px #00bd00) drop-shadow(0px 0px 2px #00bd00);
-	-webkit-filter: drop-shadow(0px 0px 2px #00bd00) drop-shadow(0px 0px 2px #00bd00);
-	border: 2px solid green;
+.redBox{
+	filter: drop-shadow(0px 0px 2px red) drop-shadow(0px 0px 1px red);
+	-webkit-filter: drop-shadow(0px 0px 2px red) drop-shadow(0px 0px 2px red);
+	border: 1px solid #d50000;
 }
 
-.redBox{
-	filter: drop-shadow(0px 0px 2px red) drop-shadow(0px 0px 2px red);
-	-webkit-filter: drop-shadow(0px 0px 2px red) drop-shadow(0px 0px 2px red);
-	border: 2px solid #d50000;
+.greenBox{
+	filter: drop-shadow(0px 0px 2px #00bd00) drop-shadow(0px 0px 1px #00bd00);
+	-webkit-filter: drop-shadow(0px 0px 2px #00bd00) drop-shadow(0px 0px 2px #00bd00);
+	border: 1px solid green;
+}
+
+.correct-sign{
+
+}
+
+.homeIntroductionHeader{
+    font-size: 30px;
+}
+
+.homeIntroductionParagraph{
+   	text-align: justify;
+	font-size: 17px;
+	padding-top: 65px;
+	font-family: verdana;
+	color: #3a414b;
+}
+
+.goImage{
+    height: 100px;
+    width: 100px;
+}
+
+button{
+    background-color: #2a6496;
+    color: #ffffff;
 }
