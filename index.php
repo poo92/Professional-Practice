@@ -107,9 +107,9 @@ if (isset($_POST['finalSubmit'])) {
 
 <body>
 <!-- Header -->
-<div style="background-color: #00b3b3; height: 75px;">
+<div style="background-color: #00b3b3; height: 61px;">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="height: 65px;">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="min-height: 53px;">
 
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -159,14 +159,14 @@ if (isset($_POST['finalSubmit'])) {
 
     <!-- Step 1 content -->
     <div id="step1" style="display: block;">
-        <div class="row" style="margin-top: 25px;">
+        <div class="row" style="margin-top: 25px; margin-left: 0px; margin-right: 0px;">
             <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
                 <p>This application is intended to improve your
                     hardware
                     knowledge in an interactive way. You can learn how to disassemble a CPU of a desktop computer while
                     recognizing all
                     the important hardware parts.
-                    <br>
+                    <br><br>
                     Let's begin learning with watching this video.
                     <br><br>
                 </p>
@@ -182,24 +182,21 @@ if (isset($_POST['finalSubmit'])) {
 
                 <iframe width="760" height="435" style="border:1px solid black;" src="https://www.youtube.com/embed/rH5RSR5rb4w?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
-            <br><br>
-
         </div>
         
 
         <!-- Questionary -->
-        <div id="step1questionbox" class="col-xs-12" style="height: 600px; display: none;">
+        <div id="step1questionbox" class="col-xs-12" style="height: 600px; display: none; margin-top:10px;">
 
             <div id="imageDiv" class="image container">
-                <img src="assets/img/step1/cpu-first-look.png" class="full-cpu" id="full">
-                <img src="assets/img/step1/processer-fan.png" class="component processor" id="pro">
-                <img src="assets/img/step1/power-supply.png" class="component powersupply" id="powersupply">
-                <img src="assets/img/step1/cooling-fan.png" class="component fan" id="fan">
-                <img src="assets/img/step1/speeker.png" class="component speeker" id="speeker">
+                <img src="assets/img/step1/cpu-first-look.png" id="full-cpu">
+                <img src="assets/img/step1/processer-fan.png" class="component" id="processor-fan">
+                <img src="assets/img/step1/power-supply.png" class="component" id="powersupply">
+                <img src="assets/img/step1/cooling-fan.png" class="component" id="fan">
+                <img src="assets/img/step1/speeker.png" class="component" id="speeker">
             </div>
 
             <div style="position: absolute; top: 96px; left: 244px;">
-                <!-- <img src="assets/img/tick.png" class="question-box-icon"> -->
                 <div id="s1q1box" class="question-box" style="">
                     <select id="s1q1" name="s1q1" style="width:200px; color: black;">
                         <option value="-1">-- Select --</option>
@@ -262,26 +259,28 @@ if (isset($_POST['finalSubmit'])) {
         </div>
     </div>
 
-    <!-- Ste 2 content -->
+    <!-- Step 2 content -->
     <div id="step2" style="display: none;">
-        <div>
-            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Phase 2</h3>
+        <div class="row" style="margin-top: 25px;">
+            <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
+                <p>This video will show you how to remove the other importatnt parts of the CPU.
+                    <br><br>
+                    Watch it and press on the arrow to continue!
+                </p>
+                <!-- Arrow -->
+                <div class="col-xs-12" style="text-align:center;">
+                    <img class="goImage" src="assets/img/arrow.png" onclick="return(showStep2());">
+                </div>
+            </div>
+            <br>
 
-            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">
-                This video will show you how to remove the other importatnt parts of the CPU.
-            </p>
-        </div>
-        <br>
+            <!-- video -->
+            <div class="col-xs-8" style="text-align:center;">
 
-        <!-- video -->
-        <div class="col-xs-12" style="text-align:center;">
-            <iframe width="560" height="315" style="border:1px solid black;"  src="https://www.youtube.com/embed/4X4-4Dv7qQk?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <br><br>
+                <iframe width="760" height="435" style="border:1px solid black;" src="https://www.youtube.com/embed/4X4-4Dv7qQk?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <br><br>
 
-        <!-- Arrow -->
-        <div class="col-xs-12" style="text-align:center;">
-            <img class="goImage" src="assets/img/arrow.png" onclick="return(showStep2());">
         </div>
 
         <!-- Questionary -->
@@ -289,6 +288,15 @@ if (isset($_POST['finalSubmit'])) {
 
             <div id="imageDiv" class="image container">
                 <img src="assets/img/step2/motherboard.png" id="motherboard">
+                <img src="assets/img/step2/agp.png" class="component" id="agp-slot">
+                <img src="assets/img/step2/pci.png" class="component" id="pci-slot">
+                <img src="assets/img/step2/south.png" class="component" id="south-bridge">
+                <img src="assets/img/step2/ide.png" class="component" id="ide-slot">
+                <img src="assets/img/step2/north.png" class="component" id="north-bridge">
+                <img src="assets/img/step2/power.png" class="component" id="power-connector">
+                <img src="assets/img/step2/processor.png" class="component" id="processor">
+                <img src="assets/img/step2/ram.png" class="component" id="ram-slot">
+                <img src="assets/img/step2/sata.png" class="component" id="sata-port">
             </div>
 
             <!-- Left side -->
@@ -434,7 +442,7 @@ if (isset($_POST['finalSubmit'])) {
     <div id="step4"></div>
 
 
-    <button id="finalSubmit" name="finalSubmit" type="submit" class="btn btn-default"
+    <button id="finalSubmit" name="finalSubmit" type="submit" class="btn btn-default hidden"
             style="background-color: #2a6496; color: #ffffff;">
         Final Submit
     </button>
@@ -674,7 +682,7 @@ if (isset($_POST['finalSubmit'])) {
     function selectValidationOnSubmit(val, errorLbl, element) {
         if (val == "-1") {
             document.getElementById(errorLbl).innerHTML = "Please select a value";
-            document.getElementById(errorLbl).style.color = "red";
+            document.getElementById(errorLbl).className += " error-label";
             document.getElementById(element).className += " redBox";
             return false;
         } else {

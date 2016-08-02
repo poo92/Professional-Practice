@@ -28,13 +28,6 @@
 	top: 35px;
 }
 
-.full-cpu{
-	position: absolute;
-	top: 0px;
-	left: 260px;
-	height: 555px;
-}
-
 .component {
 	position: absolute;
 	transition: all .4s ease-in-out;
@@ -56,25 +49,31 @@
 }
 
 /*Step 1 image CSS*/
-.powersupply {
+#full-cpu{
+	position: absolute;
+	top: 0px;
+	left: 260px;
+	height: 555px;
+}
+#powersupply {
 	top: 32px;
 	left: 359px;
 	height: 165px;
 }
 
-.processor{
+#processor-fan{
 	top: 216px;
 	left: 487px;
 	height: 123px;
 }
 
-.fan{
+#fan{
 	top: 171px;
 	left: 357px;
 	height: 160px;
 }
 
-.speeker{
+#speeker{
 	top: 376px;
 	left: 826px;
 	height: 92px;
@@ -87,19 +86,51 @@
 	left: 64px;
 	height: 555px;
 }
-
-#PCI{
-	top: 465px;
-	left: 336px;
-	height: 15px;
+#agp-slot{
+	top: 163px;
+	left: 392px;
+	height: 37px;
 }
-
+#pci-slot{
+	top: 29px;
+	left: 478px;
+	height: 48px;
+}
 #south-bridge{
-	top: 385px;
-	left: 485px;
-	height: 38px;
+	top: 97px;
+	left: 291px;
+	height: 75px;
 }
-
+#ide-slot{
+	top: 387px;
+	left: 205px;
+	height: 128px;
+}
+#north-bridge{
+	top: 218px;
+	left: 488px;
+	height: 74px;
+}
+#power-connector{
+	top: 212px;
+	left: 229px;
+	height: 125px;
+}
+#processor{
+	top: 352px;
+	left: 427px;
+	height: 119px;
+}
+#ram-slot{
+	top: 164px;
+	left: 296px;
+	height: 373px;
+}
+#sata-port{
+	top: 105px;
+	left: 245px;
+	height: 37px;
+}
 
 .hidden{
 	display: none;
@@ -115,6 +146,12 @@
 	filter: drop-shadow(0px 0px 2px #00bd00) drop-shadow(0px 0px 1px #00bd00);
 	-webkit-filter: drop-shadow(0px 0px 2px #00bd00) drop-shadow(0px 0px 2px #00bd00);
 	border: 1px solid green;
+}
+
+.error-label{
+	color: red;
+    font-family: verdana;
+    font-weight: 100;
 }
 
 .correct-sign{
