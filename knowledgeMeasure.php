@@ -38,7 +38,7 @@ if ($result) {
     $arrData = array(
         "chart" => array(
 
-            "caption" => "Community Knowledge on hardware parts inside CPU",
+            "caption" => "Phase 1",
             "paletteColors" => "#0075c2",
             "bgColor" => "#ffffff",
             "borderAlpha"=> "20",
@@ -103,7 +103,7 @@ if ($result) {
 ?>
 
 <div>
-    <center><h1>Topic here</h1></center>
+    <center><h1>Community Knowledge on hardware parts inside CPU</h1></center>
 </div>
 <br><br>
 
