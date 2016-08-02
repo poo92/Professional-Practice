@@ -170,6 +170,13 @@
 	color: #3a414b;
 }
 
+.phase-3-Paragraph{
+   	text-align: justify;
+	font-size: 17px;
+	font-family: verdana;
+	color: #3a414b;
+}
+
 .goImage{
     height: 100px;
     width: 100px;
@@ -178,4 +185,20 @@
 button{
     background-color: #2a6496;
     color: #ffffff;
+}
+
+.single-question-box{
+	border: 2px solid rgb(135, 133, 133);
+	text-align: center;
+	padding: 25px 25px 5px 25px;
+	border-radius: 7px;
+	margin-left: 65px;
+}
+/*.single-question-box:first-child{
+	margin-left: 0px;
+}*/
+.step3questionbox-row{
+	padding: 18px;
+	margin: 0 auto;
+	width: 1150px;
 }

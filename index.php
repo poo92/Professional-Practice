@@ -9,6 +9,7 @@ function formatAns($ans){
 if (isset($_POST['finalSubmit'])) {
     $s1q1 = $s1q2 = $s1q3 = $s1q4 = "";
     $s2q1 = $s2q2 = $s2q3 = $s2q4 = $s2q5 = $s2q6 = $s2q7 = $s2q8 = $s2q9 = "";
+    $s3q1 = $s3q2 = $s3q3 = $s3q4 = $s3q5 = "";
 
     $s1q1 = $_POST['s1q1'];
     $s1q2 = $_POST['s1q2'];
@@ -24,6 +25,12 @@ if (isset($_POST['finalSubmit'])) {
     $s2q7 = $_POST['s2q7'];
     $s2q8 = $_POST['s2q8'];
     $s2q9 = $_POST['s2q9'];
+
+    $s3q1 = $_POST['s3q1'];
+    $s3q2 = $_POST['s3q2'];
+    $s3q3 = $_POST['s3q3'];
+    $s3q4 = $_POST['s3q4'];
+    $s3q5 = $_POST['s3q5'];
 
     require("DBConnection.php");
 
@@ -75,6 +82,17 @@ if (isset($_POST['finalSubmit'])) {
     $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',13,'$s2q9');";
     $mysqli->query($insertQuery);
 
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',14,'$s3q1');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',15,'$s3q2');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',16,'$s3q3');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',17,'$s3q4');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',18,'$s3q5');";
+    $mysqli->query($insertQuery);
+
     $unlockQuery = "UNLOCK TABLES";
     $mysqli->query($unlockQuery);
 
@@ -107,7 +125,7 @@ if (isset($_POST['finalSubmit'])) {
 
 <body>
 <!-- Header -->
-<div style="background-color: #00b3b3; height: 61px;">
+<div id="header" style="background-color: #00b3b3; height: 61px;">
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="min-height: 53px;">
 
@@ -158,7 +176,7 @@ if (isset($_POST['finalSubmit'])) {
 <form role="form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
     <!-- Step 1 content -->
-    <div id="step1" style="display: block;">
+    <div id="step1" style="display: none;">
         <div class="row" style="margin-top: 25px; margin-left: 0px; margin-right: 0px;">
             <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
                 <p>This application is intended to improve your
@@ -260,7 +278,7 @@ if (isset($_POST['finalSubmit'])) {
     </div>
 
     <!-- Step 2 content -->
-    <div id="step2" style="display: none;">
+    <div id="step2" style="display: block;">
         <div class="row" style="margin-top: 25px;">
             <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
                 <p>This video will show you how to remove the other importatnt parts of the CPU.
@@ -423,23 +441,117 @@ if (isset($_POST['finalSubmit'])) {
             </div>
 
         </div>
-
     </div>
 
     <!-- Ste 3 content -->
     <div id="step3" style="display: none;">
+        <br>
         <div>
-            <h3 class="col-xs-3  col-xs-offset-5  homeIntroductionHrader">Phase 3</h3>
-
-            <p class="col-xs-10 col-xs-offset-1 homeIntroductionParagraph">Try to identify follow components
-            </p>
+            <p class="col-xs-10 col-xs-offset-1 phase-3-Paragraph">Now try to identify following components.</p>
         </div>
         <br>
+        <!-- Questionary -->
+        <div id="step3questionbox" class="col-xs-12" style="height: 600px; margin-top:10px;">
+            <div class="step3questionbox-row row">
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step3/cd-dvd.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s3q1box" class="question-box" style="margin: 0px auto;">
+                            <select id="s3q1" name="s3q1" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">Floppy Disk Drive</option>
+                                <option value="1">CD/DVD Drive</option>
+                                <option value="0">Hard Disk Drive</option>
+                            </select>
+                        </div>
+                    <label id="errors3q1" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step3/floppy.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s3q2box" class="question-box" style="margin: 0px auto;">
+                            <select id="s3q2" name="s3q2" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="1">Floppy Disk Drive</option>
+                                <option value="0">Hard Disk Drive</option>
+                                <option value="0">RAM</option>
+                            </select>
+                        </div>
+                    <label id="errors3q2" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step3/hdd.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s3q3box" class="question-box" style="margin: 0px auto;">
+                            <select id="s3q3" name="s3q3" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">RAM</option>
+                                <option value="0">Power Supply Unit</option>
+                                <option value="1">Hard Disk Drive</option>
+                            </select>
+                        </div>
+                    <label id="errors3q3" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+            </div>
+            <div class="step3questionbox-row row">
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step3/pci.png" style="height: 223px; margin-bottom: 16px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s3q4box" class="question-box" style="margin: 0px auto;">
+                            <select id="s3q4" name="s3q4" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">Floppy Disk Drive</option>
+                                <option value="0">CD/DVD Drive</option>
+                                <option value="1">PCI Express Component</option>
+                            </select>
+                        </div>
+                    <label id="errors3q4" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step3/ram.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s3q5box" class="question-box" style="margin: 0px auto;">
+                            <select id="s3q5" name="s3q5" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">PCI Express Component</option>
+                                <option value="0">Hard Disk Drive</option>
+                                <option value="1">RAM</option>
+                            </select>
+                        </div>
+                    <label id="errors3q5" style="font-size: 15px; "></label>
+                    </div>
+                </div>
 
+                <div  id="submitButton3Box" class="col-lg-3" style="text-align: right; margin-top: 301px; margin-left: 75px;">
+                    <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton3"
+                            onclick="return(validateForms3());">Submit
+                    </button>
+                </div>
+
+                <div id="nextButton3Box" class="col-lg-3 hidden" style="text-align: right; margin-top: 301px; margin-left: 75px;">
+                    <button id="nextButton3" name="nextButton3" class="btn btn-default"
+                            style="background-color: #2a6496; color: #ffffff;" onclick="return(nextButton3Function());">Next
+                    </button>
+                </div>
+            </div>
+
+
+            
+        </div>
     </div>
 
     <!-- Ste 4 content -->
-    <div id="step4"></div>
+    <div id="step4" style="display: none;">
+        <br>
+        <div>
+            <p class="col-xs-10 col-xs-offset-1 phase-3-Paragraph">Now try to identify following cables.</p>
+        </div>
+        <br>
+    </div>
 
 
     <button id="finalSubmit" name="finalSubmit" type="submit" class="btn btn-default hidden"
@@ -499,13 +611,11 @@ if (isset($_POST['finalSubmit'])) {
         if (errors.length > 0) {
             return false;
         } else {
-            var errors1 = [];
             if (val1 == 1) {
                 correctAnswer("s1q1box");
             } else {
                 wrongAnswer("s1q1box", "errors1q1");
                 document.getElementById("errors1q1").innerHTML = "Correct Answer : Power Supply Unit";
-                errors1.push("notok");
             }
 
             if (val2 == 1) {
@@ -513,7 +623,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s1q2box", "errors1q2");
                 document.getElementById("errors1q2").innerHTML = "Correct Answer : Cooling Fan";
-                errors1.push("notok");
             }
 
             if (val3 == 1) {
@@ -521,7 +630,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s1q3box", "errors1q3");
                 document.getElementById("errors1q3").innerHTML = "Correct Answer : Processor Cooling Fan";
-                errors1.push("notok");
             }
 
             if (val4 == 1) {
@@ -529,19 +637,11 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s1q4box", "errors1q4");
                 document.getElementById("errors1q4").innerHTML = "Correct Answer : Default Speakers";
-                errors1.push("notok");
             }
 
-            if (errors1.length > 0) {
-                $("#submitButton1").addClass("hidden");
-                $("#nextButton1").removeClass("hidden");
-                return false;
-            } else {
-                $("#submitButton1").addClass("hidden");
-                $("#nextButton1").removeClass("hidden");
-                return false;
-
-            }
+            $("#submitButton1").addClass("hidden");
+            $("#nextButton1").removeClass("hidden");
+            return false;
         }
     }
 
@@ -594,13 +694,11 @@ if (isset($_POST['finalSubmit'])) {
         if (errors.length > 0) {
             return false;
         } else {
-            var errors2 = [];
             if (val1 == 1) {
                 correctAnswer("s2q1box");
             } else {
                 wrongAnswer("s2q1box", "errors2q1");
                 document.getElementById("errors2q1").innerHTML = "Correct Answer : South bridge";
-                errors2.push("notok");
             }
 
             if (val2 == 1) {
@@ -608,7 +706,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q2box", "errors2q2");
                 document.getElementById("errors2q2").innerHTML = "Correct Answer : SATA connector";
-                errors2.push("notok");
             }
 
             if (val3 == 1) {
@@ -616,7 +713,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q3box", "errors2q3");
                 document.getElementById("errors2q3").innerHTML = "Correct Answer :<br>Motherboard power connector";
-                errors2.push("notok");
             }
 
             if (val4 == 1) {
@@ -624,7 +720,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q4box", "errors2q4");
                 document.getElementById("errors2q4").innerHTML = "Correct Answer : RAM slot";
-                errors2.push("notok");
             }
 
             if (val5 == 1) {
@@ -632,7 +727,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q5box", "errors2q5");
                 document.getElementById("errors2q5").innerHTML = "Correct Answer : IDE connector";
-                errors2.push("notok");
             }
 
             if (val6 == 1) {
@@ -640,7 +734,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q6box", "errors2q6");
                 document.getElementById("errors2q6").innerHTML = "Correct Answer : PCI slot";
-                errors2.push("notok");
             }
 
             if (val7 == 1) {
@@ -648,7 +741,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q7box", "errors2q7");
                 document.getElementById("errors2q7").innerHTML = "Correct Answer : AGP slot";
-                errors2.push("notok");
             }
 
             if (val8 == 1) {
@@ -656,7 +748,6 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q8box", "errors2q8");
                 document.getElementById("errors2q8").innerHTML = "Correct Answer : North bridge";
-                errors2.push("notok");
             }
 
             if (val9 == 1) {
@@ -664,17 +755,83 @@ if (isset($_POST['finalSubmit'])) {
             } else {
                 wrongAnswer("s2q9box", "errors2q9");
                 document.getElementById("errors2q9").innerHTML = "Correct Answer : Processor";
-                errors2.push("notok");
             }
 
-            if (errors2.length > 0) {
-                $("#submitButton2").addClass("hidden");
-                $("#nextButton2").removeClass("hidden");
+            $("#submitButton2").addClass("hidden");
+            $("#nextButton2").removeClass("hidden");
+
+            return false;
+        }
+    }
+
+    function validateForms3() {
+        var errors = [];
+
+        var val1 = document.getElementById("s3q1").value;
+        if (!selectValidationOnSubmit(val1, "errors3q1", "s3q1box")) {
+            errors.push("errors3q1");
+        }
+        var val2 = document.getElementById("s3q2").value;
+        if (!selectValidationOnSubmit(val2, "errors3q2", "s3q2box")) {
+            errors.push("errors3q2");
+        }
+
+        var val3 = document.getElementById("s3q3").value;
+        if (!selectValidationOnSubmit(val3, "errors3q3", "s3q3box")) {
+            errors.push("errors3q3");
+        }
+
+        var val4 = document.getElementById("s3q4").value;
+        if (!selectValidationOnSubmit(val4, "errors3q4", "s3q4box")) {
+            errors.push("errors3q4");
+        }
+
+        var val5 = document.getElementById("s3q5").value;
+        if (!selectValidationOnSubmit(val4, "errors3q5", "s3q5box")) {
+            errors.push("errors3q5");
+        }
+
+        if (errors.length > 0) {
+            return false;
+        } else {
+            if (val1 == 1) {
+                correctAnswer("s3q1box");
             } else {
-                $("#submitButton2").addClass("hidden");
-                $("#nextButton2").removeClass("hidden");
+                wrongAnswer("s3q1box", "errors3q1");
+                document.getElementById("errors3q1").innerHTML = "Correct Answer : CD/DVD Drive";
             }
 
+            if (val2 == 1) {
+                correctAnswer("s3q2box");
+            } else {
+                wrongAnswer("s3q2box", "errors3q2");
+                document.getElementById("errors3q2").innerHTML = "Correct Answer : Floppy Disk Drive";
+            }
+
+            if (val3 == 1) {
+                correctAnswer("s3q3box");
+            } else {
+                wrongAnswer("s3q3box", "errors3q3");
+                document.getElementById("errors3q3").innerHTML = "Correct Answer : Hard Disk Drive";
+            }
+
+            if (val4 == 1) {
+                correctAnswer("s3q4box");
+            } else {
+                wrongAnswer("s3q4box", "errors3q4");
+                document.getElementById("errors3q4").innerHTML = "Correct Answer : PCI Express Component";
+            }
+
+            if (val5 == 1) {
+                correctAnswer("s3q5box");
+            } else {
+                wrongAnswer("s3q5box", "errors3q5");
+                document.getElementById("errors3q5").innerHTML = "Correct Answer : RAM";
+            }
+
+
+            $("#submitButton3Box").addClass("hidden");
+            $("#nextButton3Box").removeClass("hidden");
             return false;
         }
     }
@@ -702,6 +859,7 @@ if (isset($_POST['finalSubmit'])) {
 
     function wrongAnswer(element, errorLbl) {
         document.getElementById(element).className += " redBox";
+        document.getElementById(errorLbl).className += " error-label";
         var img = document.createElement("img");
         img.src = "assets/img/cross.png";
         img.style = "position: absolute; height: 24px; top: -13px;"
@@ -720,8 +878,23 @@ if (isset($_POST['finalSubmit'])) {
         document.getElementById("step2").style.display = "none";
         document.getElementById("step3").style.display = "block";
         document.getElementById("title").innerHTML = "Phase 3";
+        window.scrollTo(0, 0);
+        // $("#header").slideDown("fast", function () {
+        //     $('html, body').animate({
+        //         scrollTop: $("#header").offset().top
+        //     }, 900);
+        // });
         return false;
     }
+
+    function nextButton3Function() {
+        document.getElementById("step3").style.display = "none";
+        document.getElementById("step4").style.display = "block";
+        document.getElementById("title").innerHTML = "Phase 4";
+
+        return false;
+    }
+
 </script>
 
 
