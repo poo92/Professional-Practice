@@ -1,125 +1,128 @@
-<?php
-
-function formatAns($ans){
-    if($ans == 0) {
-        return 0;
-    }
-}
-
-if (isset($_POST['finalSubmit'])) {
-    $s1q1 = $s1q2 = $s1q3 = $s1q4 = "";
-    $s2q1 = $s2q2 = $s2q3 = $s2q4 = $s2q5 = $s2q6 = $s2q7 = $s2q8 = $s2q9 = "";
-    $s3q1 = $s3q2 = $s3q3 = $s3q4 = $s3q5 = "";
-    $s4q1 = $s4q2 = $s4q3 = $s4q4 = $s4q5 = "";
-
-    $s1q1 = $_POST['s1q1'];
-    $s1q2 = $_POST['s1q2'];
-    $s1q3 = $_POST['s1q3'];
-    $s1q4 = $_POST['s1q4'];
-
-    $s2q1 = $_POST['s2q1'];
-    $s2q2 = $_POST['s2q2'];
-    $s2q3 = $_POST['s2q3'];
-    $s2q4 = $_POST['s2q4'];
-    $s2q5 = $_POST['s2q5'];
-    $s2q6 = $_POST['s2q6'];
-    $s2q7 = $_POST['s2q7'];
-    $s2q8 = $_POST['s2q8'];
-    $s2q9 = $_POST['s2q9'];
-
-    $s3q1 = $_POST['s3q1'];
-    $s3q2 = $_POST['s3q2'];
-    $s3q3 = $_POST['s3q3'];
-    $s3q4 = $_POST['s3q4'];
-    $s3q5 = $_POST['s3q5'];
-
-    $s4q1 = $_POST['s4q1'];
-    $s4q2 = $_POST['s4q2'];
-    $s4q3 = $_POST['s4q3'];
-    $s4q4 = $_POST['s4q4'];
-    $s4q5 = $_POST['s4q5'];
-
-    require("DBConnection.php");
-
-    $db = DBConnection::getInstance();
-    $mysqli = $db->getConnection();
-
-    $lockQuery = "LOCK TABLES user";
-    $mysqli->query($lockQuery);
-
-    //temp query to test connection
-    // $query = "select * from part";
-    // $result = $mysqli->query($query);
-    // $array = mysqli_fetch_assoc($result);
-    // echo $array['partName'];
-
-    $inQuery = "INSERT INTO user (publicIP) VALUES ('".$_SERVER['REMOTE_ADDR']."');";
-    $result = $mysqli->query($inQuery);
-
-    $getUserIDQuery = "SELECT MAX(userID)as userID FROM user";
-    $userIDResult = $mysqli->query($getUserIDQuery);
-    $userIDArray = mysqli_fetch_assoc($userIDResult);
-    $userID = $userIDArray["userID"];
-
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',1,'$s1q1');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',2,'$s1q2');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',3,'$s1q3');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',4,'$s1q4');";
-    $mysqli->query($insertQuery);
-
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',5,'$s2q1');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',6,'$s2q2');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',7,'$s2q3');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',8,'$s2q4');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',9,'$s2q5');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',10,'$s2q6');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',11,'$s2q7');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',12,'$s2q8');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',13,'$s2q9');";
-    $mysqli->query($insertQuery);
-
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',14,'$s3q1');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',15,'$s3q2');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',16,'$s3q3');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',17,'$s3q4');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',18,'$s3q5');";
-    $mysqli->query($insertQuery);
-
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',19,'$s4q1');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',20,'$s4q2');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',21,'$s4q3');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',22,'$s4q4');";
-    $mysqli->query($insertQuery);
-    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',23,'$s4q5');";
-    $mysqli->query($insertQuery);
-
-    $unlockQuery = "UNLOCK TABLES";
-    $mysqli->query($unlockQuery);
-
-    // header('Location: DBConnection.php');
-
-}
-?>
 <!DOCTYPE html>
 <html>
+
+    <?php
+
+        function formatAns($ans){
+            if($ans == 0) {
+                return 0;
+            }
+        }
+
+        if (isset($_POST['finalSubmit'])) {
+
+            $s1q1 = $s1q2 = $s1q3 = $s1q4 = "";
+            $s2q1 = $s2q2 = $s2q3 = $s2q4 = $s2q5 = $s2q6 = $s2q7 = $s2q8 = $s2q9 = "";
+            $s3q1 = $s3q2 = $s3q3 = $s3q4 = $s3q5 = "";
+            $s4q1 = $s4q2 = $s4q3 = $s4q4 = $s4q5 = "";
+
+            $s1q1 = $_POST['s1q1'];
+            $s1q2 = $_POST['s1q2'];
+            $s1q3 = $_POST['s1q3'];
+            $s1q4 = $_POST['s1q4'];
+
+            $s2q1 = $_POST['s2q1'];
+            $s2q2 = $_POST['s2q2'];
+            $s2q3 = $_POST['s2q3'];
+            $s2q4 = $_POST['s2q4'];
+            $s2q5 = $_POST['s2q5'];
+            $s2q6 = $_POST['s2q6'];
+            $s2q7 = $_POST['s2q7'];
+            $s2q8 = $_POST['s2q8'];
+            $s2q9 = $_POST['s2q9'];
+
+            $s3q1 = $_POST['s3q1'];
+            $s3q2 = $_POST['s3q2'];
+            $s3q3 = $_POST['s3q3'];
+            $s3q4 = $_POST['s3q4'];
+            $s3q5 = $_POST['s3q5'];
+
+            $s4q1 = $_POST['s4q1'];
+            $s4q2 = $_POST['s4q2'];
+            $s4q3 = $_POST['s4q3'];
+            $s4q4 = $_POST['s4q4'];
+            $s4q5 = $_POST['s4q5'];
+
+            require("DBConnection.php");
+
+            $db = DBConnection::getInstance();
+            $mysqli = $db->getConnection();
+
+            $lockQuery = "LOCK TABLES user";
+            $mysqli->query($lockQuery);
+
+            //temp query to test connection
+            // $query = "select * from part";
+            // $result = $mysqli->query($query);
+            // $array = mysqli_fetch_assoc($result);
+            // echo $array['partName'];
+
+            $inQuery = "INSERT INTO user (publicIP) VALUES ('".$_SERVER['REMOTE_ADDR']."');";
+            $result = $mysqli->query($inQuery);
+
+            $getUserIDQuery = "SELECT MAX(userID)as userID FROM user";
+            $userIDResult = $mysqli->query($getUserIDQuery);
+            $userIDArray = mysqli_fetch_assoc($userIDResult);
+            $userID = $userIDArray["userID"];
+
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',1,'$s1q1');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',2,'$s1q2');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',3,'$s1q3');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',4,'$s1q4');";
+            $mysqli->query($insertQuery);
+
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',5,'$s2q1');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',6,'$s2q2');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',7,'$s2q3');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',8,'$s2q4');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',9,'$s2q5');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',10,'$s2q6');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',11,'$s2q7');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',12,'$s2q8');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',13,'$s2q9');";
+            $mysqli->query($insertQuery);
+
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',14,'$s3q1');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',15,'$s3q2');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',16,'$s3q3');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',17,'$s3q4');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',18,'$s3q5');";
+            $mysqli->query($insertQuery);
+
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',19,'$s4q1');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',20,'$s4q2');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',21,'$s4q3');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',22,'$s4q4');";
+            $mysqli->query($insertQuery);
+            $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',23,'$s4q5');";
+            $mysqli->query($insertQuery);
+
+            $unlockQuery = "UNLOCK TABLES";
+            $mysqli->query($unlockQuery);
+
+            header('Location: final.php');
+
+        }
+    ?>
+
 <head lang="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -461,7 +464,7 @@ if (isset($_POST['finalSubmit'])) {
         </div>
     </div>
 
-    <!-- Ste 3 content -->
+    <!-- Step 3 content -->
     <div id="step3" style="display: none;">
         <br>
         <div>
@@ -560,7 +563,7 @@ if (isset($_POST['finalSubmit'])) {
         </div>
     </div>
 
-    <!-- Ste 4 content -->
+    <!-- Step 4 content -->
     <div id="step4" style="display: none;">
         <br>
         <div>
@@ -1063,7 +1066,7 @@ if (isset($_POST['finalSubmit'])) {
         return false;
     }
 
-
+    
 
 </script>
 
