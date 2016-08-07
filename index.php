@@ -10,6 +10,7 @@ if (isset($_POST['finalSubmit'])) {
     $s1q1 = $s1q2 = $s1q3 = $s1q4 = "";
     $s2q1 = $s2q2 = $s2q3 = $s2q4 = $s2q5 = $s2q6 = $s2q7 = $s2q8 = $s2q9 = "";
     $s3q1 = $s3q2 = $s3q3 = $s3q4 = $s3q5 = "";
+    $s4q1 = $s4q2 = $s4q3 = $s4q4 = $s4q5 = "";
 
     $s1q1 = $_POST['s1q1'];
     $s1q2 = $_POST['s1q2'];
@@ -31,6 +32,12 @@ if (isset($_POST['finalSubmit'])) {
     $s3q3 = $_POST['s3q3'];
     $s3q4 = $_POST['s3q4'];
     $s3q5 = $_POST['s3q5'];
+
+    $s4q1 = $_POST['s4q1'];
+    $s4q2 = $_POST['s4q2'];
+    $s4q3 = $_POST['s4q3'];
+    $s4q4 = $_POST['s4q4'];
+    $s4q5 = $_POST['s4q5'];
 
     require("DBConnection.php");
 
@@ -91,6 +98,17 @@ if (isset($_POST['finalSubmit'])) {
     $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',17,'$s3q4');";
     $mysqli->query($insertQuery);
     $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',18,'$s3q5');";
+    $mysqli->query($insertQuery);
+
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',19,'$s4q1');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',20,'$s4q2');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',21,'$s4q3');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',22,'$s4q4');";
+    $mysqli->query($insertQuery);
+    $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',23,'$s4q5');";
     $mysqli->query($insertQuery);
 
     $unlockQuery = "UNLOCK TABLES";
@@ -546,16 +564,101 @@ if (isset($_POST['finalSubmit'])) {
     <div id="step4" style="display: none;">
         <br>
         <div>
-            <p class="col-xs-10 col-xs-offset-1 phase-3-Paragraph">Now try to identify following cables.</p>
+            <p class="col-xs-10 col-xs-offset-1 phase-3-Paragraph">Now try to identify following components.</p>
         </div>
         <br>
+        <!-- Questionary -->
+        <div id="step4questionbox" class="col-xs-12" style="height: 600px; margin-top:10px;">
+            <div class="step3questionbox-row row">
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step4/ide-cable.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s4q1box" class="question-box" style="margin: 0px auto;">
+                            <select id="s4q1" name="s4q1" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">Motherboard Power Cable</option>
+                                <option value="1">IDE Cable</option>
+                                <option value="0">Peripheral Power Cable</option>
+                            </select>
+                        </div>
+                    <label id="errors4q1" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step4/motherboard-power-cable.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s4q2box" class="question-box" style="margin: 0px auto;">
+                            <select id="s4q2" name="s4q2" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="1">Motherboard Power Cable</option>
+                                <option value="0">Sata Cable</option>
+                                <option value="0">Sata Power Cable</option>
+                            </select>
+                        </div>
+                    <label id="errors4q2" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step4/peripheral-power-cable.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s4q3box" class="question-box" style="margin: 0px auto;">
+                            <select id="s4q3" name="s4q3" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">Sata Cable</option>
+                                <option value="0">IDE Cable</option>
+                                <option value="1">Peripheral Power Cable</option>
+                            </select>
+                        </div>
+                    <label id="errors4q3" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+            </div>
+            <div class="step3questionbox-row row">
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step4/sata-cable.png" style="height: 223px; margin-bottom: 16px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s4q4box" class="question-box" style="margin: 0px auto;">
+                            <select id="s4q4" name="s4q4" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">Sata Power Cable</option>
+                                <option value="0">Peripheral Power Cable/option>
+                                <option value="1">Sata Cable</option>
+                            </select>
+                        </div>
+                    <label id="errors4q4" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 single-question-box">
+                    <img src="assets/img/step4/sata-power-cable.png" style="height: 240px;">
+                    <div style="margin-top: 15px;">
+                        <div id="s4q5box" class="question-box" style="margin: 0px auto;">
+                            <select id="s4q5" name="s4q5" style="width:200px; color: black;">
+                                <option value="-1">-- Select --</option>
+                                <option value="0">IDE Cable</option>
+                                <option value="0">Motherboard Power Cable</option>
+                                <option value="1">Sata Power Cable</option>
+                            </select>
+                        </div>
+                    <label id="errors4q5" style="font-size: 15px; "></label>
+                    </div>
+                </div>
+
+                <div  id="submitButton4Box" class="col-lg-3" style="text-align: right; margin-top: 301px; margin-left: 75px;">
+                    <button class="btn btn-default" style="background-color: #2a6496; color: #ffffff;" id="submitButton4"
+                            onclick="return(validateForms4());">Submit
+                    </button>
+                </div>
+
+                <div  id="finalSubmitBox" class="col-lg-3 hidden" style="text-align: right; margin-top: 301px; margin-left: 75px;">
+                    <button id="finalSubmit" name="finalSubmit" type="submit" class="btn btn-default "
+                            style="background-color: #2a6496; color: #ffffff;">
+                        Final Submit
+                    </button>
+                </div>
+            </div>
+
+        </div>
     </div>
-
-
-    <button id="finalSubmit" name="finalSubmit" type="submit" class="btn btn-default hidden"
-            style="background-color: #2a6496; color: #ffffff;">
-        Final Submit
-    </button>
 
 </form>
 </body>
@@ -834,6 +937,78 @@ if (isset($_POST['finalSubmit'])) {
         }
     }
 
+    function validateForms4() {
+        var errors = [];
+
+        var val1 = document.getElementById("s4q1").value;
+        if (!selectValidationOnSubmit(val1, "errors4q1", "s4q1box")) {
+            errors.push("errors4q1");
+        }
+        var val2 = document.getElementById("s4q2").value;
+        if (!selectValidationOnSubmit(val2, "errors4q2", "s4q2box")) {
+            errors.push("errors4q2");
+        }
+
+        var val3 = document.getElementById("s4q3").value;
+        if (!selectValidationOnSubmit(val3, "errors4q3", "s4q3box")) {
+            errors.push("errors4q3");
+        }
+
+        var val4 = document.getElementById("s4q4").value;
+        if (!selectValidationOnSubmit(val4, "errors4q4", "s4q4box")) {
+            errors.push("errors4q4");
+        }
+
+        var val5 = document.getElementById("s4q5").value;
+        if (!selectValidationOnSubmit(val4, "errors4q5", "s4q5box")) {
+            errors.push("errors4q5");
+        }
+
+        if (errors.length > 0) {
+            return false;
+        } else {
+            if (val1 == 1) {
+                correctAnswer("s4q1box");
+            } else {
+                wrongAnswer("s4q1box", "errors4q1");
+                document.getElementById("errors4q1").innerHTML = "Correct Answer : IDE Cable";
+            }
+
+            if (val2 == 1) {
+                correctAnswer("s4q2box");
+            } else {
+                wrongAnswer("s4q2box", "errors4q2");
+                document.getElementById("errors4q2").innerHTML = "Correct Answer : Motherboard Power Cable";
+            }
+
+            if (val3 == 1) {
+                correctAnswer("s4q3box");
+            } else {
+                wrongAnswer("s4q3box", "errors4q3");
+                document.getElementById("errors4q3").innerHTML = "Correct Answer : Peripheral Power Cable";
+            }
+
+            if (val4 == 1) {
+                correctAnswer("s4q4box");
+            } else {
+                wrongAnswer("s4q4box", "errors4q4");
+                document.getElementById("errors4q4").innerHTML = "Correct Answer : Sata Cable";
+            }
+
+            if (val5 == 1) {
+                correctAnswer("s4q5box");
+            } else {
+                wrongAnswer("s4q5box", "errors4q5");
+                document.getElementById("errors4q5").innerHTML = "Correct Answer : Sata Power Cable";
+            }
+
+            $("#submitButton4Box").addClass("hidden");
+            $("#finalSubmitBox").removeClass("hidden");
+
+            return false;
+        }
+    }
+
     function selectValidationOnSubmit(val, errorLbl, element) {
         if (val == "-1") {
             document.getElementById(errorLbl).innerHTML = "Please select a value";
@@ -877,11 +1052,6 @@ if (isset($_POST['finalSubmit'])) {
         document.getElementById("step3").style.display = "block";
         document.getElementById("title").innerHTML = "Phase 3";
         window.scrollTo(0, 0);
-        // $("#header").slideDown("fast", function () {
-        //     $('html, body').animate({
-        //         scrollTop: $("#header").offset().top
-        //     }, 900);
-        // });
         return false;
     }
 
@@ -889,8 +1059,11 @@ if (isset($_POST['finalSubmit'])) {
         document.getElementById("step3").style.display = "none";
         document.getElementById("step4").style.display = "block";
         document.getElementById("title").innerHTML = "Phase 4";
+        window.scrollTo(0, 0);
         return false;
     }
+
+
 
 </script>
 
