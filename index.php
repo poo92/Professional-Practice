@@ -176,7 +176,7 @@ if (isset($_POST['finalSubmit'])) {
 <form role="form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
 
     <!-- Step 1 content -->
-    <div id="step1" style="display: none;">
+    <div id="step1" style="display: block;">
         <div class="row" style="margin-top: 25px; margin-left: 0px; margin-right: 0px;">
             <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
                 <p>This application is intended to improve your
@@ -278,7 +278,7 @@ if (isset($_POST['finalSubmit'])) {
     </div>
 
     <!-- Step 2 content -->
-    <div id="step2" style="display: block;">
+    <div id="step2" style="display: none;">
         <div class="row" style="margin-top: 25px;">
             <div class="col-xs-3 col-xs-offset-1 homeIntroductionParagraph">
                 <p>This video will show you how to remove the other importatnt parts of the CPU.
@@ -539,8 +539,6 @@ if (isset($_POST['finalSubmit'])) {
                 </div>
             </div>
 
-
-            
         </div>
     </div>
 
@@ -829,9 +827,9 @@ if (isset($_POST['finalSubmit'])) {
                 document.getElementById("errors3q5").innerHTML = "Correct Answer : RAM";
             }
 
-
             $("#submitButton3Box").addClass("hidden");
             $("#nextButton3Box").removeClass("hidden");
+
             return false;
         }
     }
@@ -891,7 +889,6 @@ if (isset($_POST['finalSubmit'])) {
         document.getElementById("step3").style.display = "none";
         document.getElementById("step4").style.display = "block";
         document.getElementById("title").innerHTML = "Phase 4";
-
         return false;
     }
 
