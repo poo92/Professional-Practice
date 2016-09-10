@@ -206,3 +206,12 @@ button{
 #final-question-container{
 	font-family: verdana;
 }
+
+small{
+	font-size: 12px;
+}
+
+.final-error{
+	color: red;
+	font-size: 13px;
+}

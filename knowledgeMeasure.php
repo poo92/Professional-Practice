@@ -3,7 +3,7 @@ include("fusioncharts/fusioncharts.php");
 ?>
 <html>
 <head>
-    <title>FusionCharts XT - Column 2D Chart - Data from a database</title>
+    <title>PCKnow - Results</title>
 <!--    <link  rel="stylesheet" type="text/css" href="fusioncharts/assets/css/style.css" />-->
 
 

@@ -65,6 +65,9 @@
             $userIDArray = mysqli_fetch_assoc($userIDResult);
             $userID = $userIDArray["userID"];
 
+            session_start();
+            $_SESSION["userid"] = $userID;
+
             $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',1,'$s1q1');";
             $mysqli->query($insertQuery);
             $insertQuery = "INSERT INTO useranswer (userID, partID, answer) VALUES ('$userID',2,'$s1q2');";
@@ -140,6 +143,12 @@
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
     <script src="assets/js/jquery-2.1.4.min.js"></script>
+
+    <script type="text/javascript">
+        window.onbeforeunload = function() {
+            return "Are you sure you want to navigate away?";
+        }
+    </script>
 
 </head>
 
@@ -1020,6 +1029,7 @@
             return false;
         } else {
             document.getElementById(errorLbl).innerHTML = "";
+            document.getElementById(element).className = "question-box";
             return true;
         }
     }
