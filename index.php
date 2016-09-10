@@ -624,7 +624,7 @@
                             <select id="s4q4" name="s4q4" style="width:200px; color: black;">
                                 <option value="-1">-- Select --</option>
                                 <option value="0">Sata Power Cable</option>
-                                <option value="0">Peripheral Power Cable/option>
+                                <option value="0">Peripheral Power Cable</option>
                                 <option value="1">Sata Cable</option>
                             </select>
                         </div>
@@ -1065,8 +1065,6 @@
         window.scrollTo(0, 0);
         return false;
     }
-
-    
 
 </script>
 

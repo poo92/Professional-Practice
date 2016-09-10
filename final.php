@@ -38,7 +38,7 @@
                     style="color : #009b83; ">Know</strong></a>
         </div>
         <div class="col-sm-8">
-            <div id="title" class="col-sm-offset-3">Congratulation!</div>
+            <div id="title" class="col-sm-offset-3">Thank you!</div>
         </div>
         <div class="col-sm-3">
             <ul class="nav navbar-right top-nav">
@@ -82,6 +82,121 @@
             <br>
             Thank you!</p>
         </div>
+        <br><br>
+
+        <!-- Questionary -->
+        <div class="col-lg-offset-1 col-lg-8" id="final-question-container">
+	        <form>
+	        	<label class="col-xs-12 col-form-label">Specify your location</label>
+	        	<div class="form-group">
+	        		<br>
+					<label class="col-xs-offset-1 col-xs-2 col-form-label">Province</label>
+					<div class="col-xs-9">
+						<select class="form-control" id="province">
+							<option>Central Province</option>
+							<option>Eastern Province</option>
+							<option>North Central Province</option>
+							<option>Northern Province</option>
+							<option>North Western Province</option>
+							<option>Sabaragamuwa Province</option>
+							<option>Southern Province</option>
+							<option>Uva Province</option>
+							<option>Western Province</option>
+						</select>
+					</div>
+				</div>
+				<br><br>
+				<div class="form-group">
+					<label class="col-xs-offset-1 col-xs-2 col-form-label">District</label>
+					<div class="col-xs-9">
+						<select class="form-control" id="district">
+							<option>Ampara</option>
+							<option>Anuradhapura</option>
+							<option>Badulla</option>
+							<option>Batticaloa</option>
+							<option>Colombo</option>
+							<option>Galle</option>
+							<option>Gampaha</option>
+							<option>Hambantota</option>
+							<option>Jaffna</option>
+							<option>Kalutara</option>
+							<option>Kandy</option>
+							<option>Kegalle</option>
+							<option>Kilinochchi</option>
+							<option>Kurunegala</option>
+							<option>Mannar</option>
+							<option>Matale</option>
+							<option>Matara</option>
+							<option>Monaragala</option>
+							<option>Mullaitivu</option>
+							<option>Nuwara Eliya</option>
+							<option>Polonnaruwa</option>
+							<option>Puttalam</option>
+							<option>Ratnapura</option>
+							<option>Trincomalee</option>
+							<option>Vavuniya</option>
+						</select>
+					</div>
+				</div>
+				<br><br>
+
+				<label class="col-xs-12 col-form-label">Some personal information</label>
+	        	<div class="form-group">
+	        		<br>
+					<label class="col-xs-offset-1 col-xs-2 col-form-label">Age group</label>
+					<div class="col-xs-9">
+						<select class="form-control" id="age">
+							<option>below 12</option>
+							<option>12 - 18</option>
+							<option>18 - 25</option>
+							<option>25 - 30</option>
+							<option>30 - 35</option>
+							<option>35 - 45</option>
+							<option>above 45</option>
+						</select>
+					</div>
+				</div>
+				<br><br>
+				<div class="form-group">
+	        		<br>
+					<label class="col-xs-offset-1 col-xs-2 col-form-label">Education level</label>
+					<div class="col-xs-9">
+						<select class="form-control" id="education">
+							<option>GCE O/L</option>
+							<option>GCE A/L</option>
+							<option>Diploma</option>
+							<option>Degree</option>
+							<option>Masters</option>
+							<option>Phd</option>
+						</select>
+					</div>
+				</div>
+				<br><br>
+
+				<div class="form-group">
+					<label for="province" class="col-xs-3 col-form-label">Email address</label>
+					<div class="col-xs-9">
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+				</div>
+				<br>
+				<div class="form-group">
+					<label for="exampleSelect1" class="col-xs-3 col-form-label">Example select</label>
+					<div class="col-xs-9">
+						<select class="form-control" id="exampleSelect1">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+				</div>
+
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
         <br>
     </div>
 
@@ -89,6 +204,7 @@
 </body>
 
 <script src="assets/js/jquery.min.js"></script>
+
 
 </body>
 </html>
